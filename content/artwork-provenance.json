@@ -735,21 +735,31 @@
     "name": "gladias",
     "sourceFile": "concept-art/characters/01-gladias.png",
     "sourceSha256": "1c08cdc8b673044c6dfa84262ed6b8ba4ce0ca2a708b1191f32ffbb6a7da00aa",
+    "portraitCrop": {
+      "box": [
+        133,
+        0,
+        890,
+        908
+      ],
+      "aspectRatio": "5:6",
+      "alignment": "top"
+    },
     "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
     "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
     "prompt": "Use case: identity-preserve. Asset type: INDIVIDUAL full-body character concept art for SNOWMOON, futuristic American-market 2D graphic novel.\nInput image 1: EDIT TARGET and identity/costume/style reference, an existing FOUR-person character design sheet. Isolate and recompose ONLY the FIRST (leftmost) column character, labeled \"GLADIAS\". Preserve that selected character's exact facial identity, hairstyle, skin tone, age, body build, posture, costume cut, colors, footwear and held items. The selected full-body figure is the primary reference; close-up portrait is supporting face reference only.\nSubject: Early-40s male with warm light-brown skin, soft rectangular face, short wavy brown hair graying at temples, kind tired eyes, clean-shaven. Plain dark plum ankle-length loose hooded privacy robe, hood lowered behind neck, face uncovered as in the reference, narrow gray fabric throat band, same purple platform shoes, charcoal hand terminal held in both hands at waist.\nPrimary request: Create ONE new tall portrait-format image showing ONLY this ONE person ONCE, in a single large head-to-toe standing three-quarter figure. Remove the other three characters completely. Remove ALL duplicate head portraits, color swatches, divider lines, panels and sheet header. Do NOT create a contact sheet, lineup, turnaround, collage, inset head, multiple poses or duplicate person.\nComposition: centered full figure filling roughly 82% of image height, natural roughly 7.5-head human proportions, generous narrow side margins, visible complete hair/head and BOTH complete shoes with comfortable space above and below. Full garment hem visible. Blank warm ivory paper background with very faint texture and a small soft ground shadow only. No scene, no extra props. Portrait canvas roughly 2:3, requested 1024x1536.\nStyle: EXACT same original 2D Western graphic novel artwork as reference: confident varied black ink lines, clearly drawn folds, large solid black shadows, clean two-tone cel shading, restrained halftone. Not photo, not 3D render, not anime/chibi, no superhero transformation. Keep original restrained palette.\nText: only a small neat dark name caption \"GLADIAS\" centered BELOW the feet, no other text. Keep portrait identity faithful, do not beautify/recast/re-age. No personal emblems on privacy robes. No new weapon, armor, glowing cyber implants, scenery or extra people.",
     "outputs": [
       {
         "file": "public/assets/gladias-360.webp",
-        "bytes": 8736,
+        "bytes": 10916,
         "width": 360,
-        "height": 300
+        "height": 432
       },
       {
         "file": "public/assets/gladias-600.webp",
-        "bytes": 19618,
+        "bytes": 25624,
         "width": 600,
-        "height": 500
+        "height": 720
       }
     ]
   },
@@ -757,21 +767,31 @@
     "name": "zei",
     "sourceFile": "concept-art/characters/02-zei-leimin.png",
     "sourceSha256": "90680b6303b2236d665b5fca106c521e8a101cdec32bbaf4a144e08793de2167",
+    "portraitCrop": {
+      "box": [
+        133,
+        0,
+        890,
+        908
+      ],
+      "aspectRatio": "5:6",
+      "alignment": "top"
+    },
     "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
     "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
     "prompt": "Use case: identity-preserve. Asset type: INDIVIDUAL full-body character concept art for SNOWMOON, futuristic American-market 2D graphic novel.\nInput image 1: EDIT TARGET and identity/costume/style reference, an existing FOUR-person character design sheet. Isolate and recompose ONLY the SECOND column character, labeled \"ZEI LEIMIN\". Preserve that selected character's exact facial identity, hairstyle, skin tone, age, body build, posture, costume cut, colors, footwear and held items. The selected full-body figure is the primary reference; close-up portrait is supporting face reference only.\nSubject: 18-year-old lean male, warm light-medium skin, youthful angular face, thick black straight hair with uneven diagonal fringe, focused dark eyes. Same pine-green lightweight boxy technical jacket, cream shirt, charcoal cargo trousers, dark low-top sneakers with pale soles, wrist terminal. One hand casually in pocket, other relaxed as in reference. Healthy left forearm.\nPrimary request: Create ONE new tall portrait-format image showing ONLY this ONE person ONCE, in a single large head-to-toe standing three-quarter figure. Remove the other three characters completely. Remove ALL duplicate head portraits, color swatches, divider lines, panels and sheet header. Do NOT create a contact sheet, lineup, turnaround, collage, inset head, multiple poses or duplicate person.\nComposition: centered full figure filling roughly 82% of image height, natural roughly 7.5-head human proportions, generous narrow side margins, visible complete hair/head and BOTH complete shoes with comfortable space above and below. Full garment hem visible. Blank warm ivory paper background with very faint texture and a small soft ground shadow only. No scene, no extra props. Portrait canvas roughly 2:3, requested 1024x1536.\nStyle: EXACT same original 2D Western graphic novel artwork as reference: confident varied black ink lines, clearly drawn folds, large solid black shadows, clean two-tone cel shading, restrained halftone. Not photo, not 3D render, not anime/chibi, no superhero transformation. Keep original restrained palette.\nText: only a small neat dark name caption \"ZEI LEIMIN\" centered BELOW the feet, no other text. Keep portrait identity faithful, do not beautify/recast/re-age. No personal emblems on privacy robes. No new weapon, armor, glowing cyber implants, scenery or extra people.",
     "outputs": [
       {
         "file": "public/assets/zei-360.webp",
-        "bytes": 10550,
+        "bytes": 13072,
         "width": 360,
-        "height": 300
+        "height": 432
       },
       {
         "file": "public/assets/zei-600.webp",
-        "bytes": 23166,
+        "bytes": 29518,
         "width": 600,
-        "height": 500
+        "height": 720
       }
     ]
   },
@@ -779,21 +799,31 @@
     "name": "bai",
     "sourceFile": "concept-art/characters/03-bai-jahen.png",
     "sourceSha256": "cf202f27308fa8e8d58872ac1c3e3ccefb66f3e121d7b8153607d69cb67d2dba",
+    "portraitCrop": {
+      "box": [
+        133,
+        0,
+        890,
+        908
+      ],
+      "aspectRatio": "5:6",
+      "alignment": "top"
+    },
     "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
     "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
     "prompt": "Use case: identity-preserve. Asset type: INDIVIDUAL full-body character concept art for SNOWMOON, futuristic American-market 2D graphic novel.\nInput image 1: EDIT TARGET and identity/costume/style reference, an existing FOUR-person character design sheet. Isolate and recompose ONLY the THIRD column character, labeled \"BAI JAHEN\". Preserve that selected character's exact facial identity, hairstyle, skin tone, age, body build, posture, costume cut, colors, footwear and held items. The selected full-body figure is the primary reference; close-up portrait is supporting face reference only.\nSubject: Young female peer 18-20, warm olive-tan skin, diamond face, black short low ponytail with two face strands, direct confident gaze. Same rust-amber short structured jacket over plain purple shirt, charcoal practical trousers, black ankle boots and small black crossbody bag; hand terminal in one hand, other hand near pocket. Functional opaque clothing and normal natural anatomy.\nPrimary request: Create ONE new tall portrait-format image showing ONLY this ONE person ONCE, in a single large head-to-toe standing three-quarter figure. Remove the other three characters completely. Remove ALL duplicate head portraits, color swatches, divider lines, panels and sheet header. Do NOT create a contact sheet, lineup, turnaround, collage, inset head, multiple poses or duplicate person.\nComposition: centered full figure filling roughly 82% of image height, natural roughly 7.5-head human proportions, generous narrow side margins, visible complete hair/head and BOTH complete shoes with comfortable space above and below. Full garment hem visible. Blank warm ivory paper background with very faint texture and a small soft ground shadow only. No scene, no extra props. Portrait canvas roughly 2:3, requested 1024x1536.\nStyle: EXACT same original 2D Western graphic novel artwork as reference: confident varied black ink lines, clearly drawn folds, large solid black shadows, clean two-tone cel shading, restrained halftone. Not photo, not 3D render, not anime/chibi, no superhero transformation. Keep original restrained palette.\nText: only a small neat dark name caption \"BAI JAHEN\" centered BELOW the feet, no other text. Keep portrait identity faithful, do not beautify/recast/re-age. No personal emblems on privacy robes. No new weapon, armor, glowing cyber implants, scenery or extra people.",
     "outputs": [
       {
         "file": "public/assets/bai-360.webp",
-        "bytes": 10148,
+        "bytes": 11802,
         "width": 360,
-        "height": 300
+        "height": 432
       },
       {
         "file": "public/assets/bai-600.webp",
-        "bytes": 22278,
+        "bytes": 26642,
         "width": 600,
-        "height": 500
+        "height": 720
       }
     ]
   },
@@ -801,21 +831,31 @@
     "name": "seila",
     "sourceFile": "concept-art/characters/04-seila.png",
     "sourceSha256": "8c873c96a4341476bbe959625a946266c96703e33120ce26de706801f13b0bb0",
+    "portraitCrop": {
+      "box": [
+        133,
+        0,
+        890,
+        908
+      ],
+      "aspectRatio": "5:6",
+      "alignment": "top"
+    },
     "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
     "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
     "prompt": "Use case: identity-preserve. Asset type: INDIVIDUAL full-body character concept art for SNOWMOON, futuristic American-market 2D graphic novel.\nInput image 1: EDIT TARGET and identity/costume/style reference, an existing FOUR-person character design sheet. Isolate and recompose ONLY the FOURTH (rightmost) column character, labeled \"SEILA\". Preserve that selected character's exact facial identity, hairstyle, skin tone, age, body build, posture, costume cut, colors, footwear and held items. The selected full-body figure is the primary reference; close-up portrait is supporting face reference only.\nSubject: Late-30s/early-40s woman, medium-deep brown skin, open oval face, dark curly hair in high rounded bun and loose curls, independent inquisitive look. Same muted teal open knee-length coat, cream top, charcoal trousers, dark practical boots, crossbody reporter bag, narrow throat band, wrist terminal. Holds upright phone/hand terminal raised to document something, other hand at bag strap as in reference.\nPrimary request: Create ONE new tall portrait-format image showing ONLY this ONE person ONCE, in a single large head-to-toe standing three-quarter figure. Remove the other three characters completely. Remove ALL duplicate head portraits, color swatches, divider lines, panels and sheet header. Do NOT create a contact sheet, lineup, turnaround, collage, inset head, multiple poses or duplicate person.\nComposition: centered full figure filling roughly 82% of image height, natural roughly 7.5-head human proportions, generous narrow side margins, visible complete hair/head and BOTH complete shoes with comfortable space above and below. Full garment hem visible. Blank warm ivory paper background with very faint texture and a small soft ground shadow only. No scene, no extra props. Portrait canvas roughly 2:3, requested 1024x1536.\nStyle: EXACT same original 2D Western graphic novel artwork as reference: confident varied black ink lines, clearly drawn folds, large solid black shadows, clean two-tone cel shading, restrained halftone. Not photo, not 3D render, not anime/chibi, no superhero transformation. Keep original restrained palette.\nText: only a small neat dark name caption \"SEILA\" centered BELOW the feet, no other text. Keep portrait identity faithful, do not beautify/recast/re-age. No personal emblems on privacy robes. No new weapon, armor, glowing cyber implants, scenery or extra people.",
     "outputs": [
       {
         "file": "public/assets/seila-360.webp",
-        "bytes": 13262,
+        "bytes": 15986,
         "width": 360,
-        "height": 300
+        "height": 432
       },
       {
         "file": "public/assets/seila-600.webp",
-        "bytes": 29116,
+        "bytes": 36424,
         "width": 600,
-        "height": 500
+        "height": 720
       }
     ]
   },
@@ -823,21 +863,31 @@
     "name": "fin",
     "sourceFile": "concept-art/characters/05-fin.png",
     "sourceSha256": "7a8deceef768b9a0167164890c85df685c9c8d425c6ca11401a1f97d0f9d4b0a",
+    "portraitCrop": {
+      "box": [
+        133,
+        0,
+        890,
+        908
+      ],
+      "aspectRatio": "5:6",
+      "alignment": "top"
+    },
     "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
     "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
     "prompt": "Use case: identity-preserve. Asset type: INDIVIDUAL full-body character concept art for SNOWMOON, futuristic American-market 2D graphic novel.\nInput image 1: EDIT TARGET and identity/costume/style reference, an existing FOUR-person character design sheet. Isolate and recompose ONLY the FIRST (leftmost) column character, labeled \"FIN\". Preserve that selected character's exact facial identity, hairstyle, skin tone, age, body build, posture, costume cut, colors, footwear and held items. The selected full-body figure is the primary reference; close-up portrait is supporting face reference only.\nSubject: Friendly young male 18-20, deep brown skin, short tight black curls, rounded warm face and broad relaxed smile. Same light slate-blue hooded overshirt, cream inner shirt, charcoal cargo trousers, slate sneakers, narrow teal fabric neckband and wrist terminal. Rounded backpack visible around shoulders, small cream booklet with simple two-hands-meeting line icon held in hand, other hand in pocket.\nPrimary request: Create ONE new tall portrait-format image showing ONLY this ONE person ONCE, in a single large head-to-toe standing three-quarter figure. Remove the other three characters completely. Remove ALL duplicate head portraits, color swatches, divider lines, panels and sheet header. Do NOT create a contact sheet, lineup, turnaround, collage, inset head, multiple poses or duplicate person.\nComposition: centered full figure filling roughly 82% of image height, natural roughly 7.5-head human proportions, generous narrow side margins, visible complete hair/head and BOTH complete shoes with comfortable space above and below. Full garment hem visible. Blank warm ivory paper background with very faint texture and a small soft ground shadow only. No scene, no extra props. Portrait canvas roughly 2:3, requested 1024x1536.\nStyle: EXACT same original 2D Western graphic novel artwork as reference: confident varied black ink lines, clearly drawn folds, large solid black shadows, clean two-tone cel shading, restrained halftone. Not photo, not 3D render, not anime/chibi, no superhero transformation. Keep original restrained palette.\nText: only a small neat dark name caption \"FIN\" centered BELOW the feet, no other text. Keep portrait identity faithful, do not beautify/recast/re-age. No personal emblems on privacy robes. No new weapon, armor, glowing cyber implants, scenery or extra people.",
     "outputs": [
       {
         "file": "public/assets/fin-360.webp",
-        "bytes": 10764,
+        "bytes": 12862,
         "width": 360,
-        "height": 300
+        "height": 432
       },
       {
         "file": "public/assets/fin-600.webp",
-        "bytes": 23280,
+        "bytes": 27824,
         "width": 600,
-        "height": 500
+        "height": 720
       }
     ]
   },
@@ -845,21 +895,31 @@
     "name": "mu",
     "sourceFile": "concept-art/characters/06-mu.png",
     "sourceSha256": "f726e42c7ca26fc7aa74663e00a5b695c50fde93cdfe4e616159a5ed8a27e8aa",
+    "portraitCrop": {
+      "box": [
+        133,
+        0,
+        890,
+        908
+      ],
+      "aspectRatio": "5:6",
+      "alignment": "top"
+    },
     "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
     "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
     "prompt": "Use case: identity-preserve. Asset type: INDIVIDUAL full-body character concept art for SNOWMOON, futuristic American-market 2D graphic novel.\nInput image 1: EDIT TARGET and identity/costume/style reference, an existing FOUR-person character design sheet. Isolate and recompose ONLY the SECOND column character, labeled \"MU\". Preserve that selected character's exact facial identity, hairstyle, skin tone, age, body build, posture, costume cut, colors, footwear and held items. The selected full-body figure is the primary reference; close-up portrait is supporting face reference only.\nSubject: 40-50-year-old female mentor with light-medium warm skin, defined cheekbones, perceptive dark eyes, black chin-length bob and broad graying streak on one side, calm faint smile. Same tailored long slate-plum civilian coat over practical charcoal layers and trousers, black boots, understated hand terminal held close to chest, other hand in coat pocket. Relaxed upright economical posture, no armor.\nPrimary request: Create ONE new tall portrait-format image showing ONLY this ONE person ONCE, in a single large head-to-toe standing three-quarter figure. Remove the other three characters completely. Remove ALL duplicate head portraits, color swatches, divider lines, panels and sheet header. Do NOT create a contact sheet, lineup, turnaround, collage, inset head, multiple poses or duplicate person.\nComposition: centered full figure filling roughly 82% of image height, natural roughly 7.5-head human proportions, generous narrow side margins, visible complete hair/head and BOTH complete shoes with comfortable space above and below. Full garment hem visible. Blank warm ivory paper background with very faint texture and a small soft ground shadow only. No scene, no extra props. Portrait canvas roughly 2:3, requested 1024x1536.\nStyle: EXACT same original 2D Western graphic novel artwork as reference: confident varied black ink lines, clearly drawn folds, large solid black shadows, clean two-tone cel shading, restrained halftone. Not photo, not 3D render, not anime/chibi, no superhero transformation. Keep original restrained palette.\nText: only a small neat dark name caption \"MU\" centered BELOW the feet, no other text. Keep portrait identity faithful, do not beautify/recast/re-age. No personal emblems on privacy robes. No new weapon, armor, glowing cyber implants, scenery or extra people.",
     "outputs": [
       {
         "file": "public/assets/mu-360.webp",
-        "bytes": 7118,
+        "bytes": 8802,
         "width": 360,
-        "height": 300
+        "height": 432
       },
       {
         "file": "public/assets/mu-600.webp",
-        "bytes": 14856,
+        "bytes": 18834,
         "width": 600,
-        "height": 500
+        "height": 720
       }
     ]
   }

@@ -44,6 +44,14 @@ await rm(DIST,{recursive:true,force:true});
 await mkdir(DIST,{recursive:true});
 await cp(join(ROOT,'public'),DIST,{recursive:true});
 const hashed={};
+const portraitVersions=new Map();
+for(const character of characters) {
+  for(const width of [360,600]) {
+    const name=`${character.slug}-${width}.webp`;
+    const data=await readFile(join(DIST,'assets',name));
+    portraitVersions.set(name,createHash('sha256').update(data).digest('hex').slice(0,10));
+  }
+}
 for(const file of ['site.css','site.js']) {
   const data=await readFile(join(DIST,'assets',file));
   const name=file.replace('.',`.${createHash('sha256').update(data).digest('hex').slice(0,10)}.`);
@@ -56,7 +64,7 @@ function scene(id,alt,{hero=false,priority=false,cls='',feature=false}={}) {
   const small=hero?640:480,large=hero?1600:960;
   return `<img src="/assets/${name}-${small}.webp" srcset="/assets/${name}-${small}.webp ${small}w, /assets/${name}-${hero?960:large}.webp ${hero?960:large}w${hero?`, /assets/${name}-1600.webp 1600w`:''}" sizes="${hero?'(max-width: 800px) 100vw, 65vw':feature?'(max-width: 800px) 100vw, 720px':'(max-width: 520px) 46vw, (max-width: 800px) 48vw, 400px'}" width="${large}" height="${large*9/16}" alt="${escape(alt)}" ${priority?'fetchpriority="high" loading="eager"':'loading="lazy"'} decoding="async" ${cls?`class="${cls}"`:''}>`;
 }
-function portrait(c,lang) {return `<img src="/assets/${c.slug}-360.webp" srcset="/assets/${c.slug}-360.webp 360w, /assets/${c.slug}-600.webp 600w" sizes="(max-width:520px) 44vw, 200px" width="600" height="500" alt="${escape(t(lang,`Illustrated character design of ${c.name}`,`${c.zhName}的改编角色形象`))}" loading="lazy" decoding="async">`;}
+function portrait(c,lang) {const asset=width=>`/assets/${c.slug}-${width}.webp?v=${portraitVersions.get(`${c.slug}-${width}.webp`)}`;return `<img src="${asset(360)}" srcset="${asset(360)} 360w, ${asset(600)} 600w" sizes="(max-width:520px) 44vw, 200px" width="600" height="720" alt="${escape(t(lang,`Illustrated character design of ${c.name}`,`${c.zhName}的改编角色形象`))}" loading="lazy" decoding="async">`;}
 function nav(lang,active) {
   return [[`/${lang}/episodes/`,t(lang,'Episodes','剧集'),'episodes'],[`/${lang}/characters/`,t(lang,'Characters','人物'),'characters'],[`/${lang}/world/`,t(lang,'The world','世界'),'world'],[lang==='en'?ORIGINAL:'/zh/novel/',t(lang,'Read the novel','阅读小说'),'novel'],[`/${lang}/about/`,t(lang,'About','关于'),'about']].map(([url,label,key])=>href(url,escape(label),'',`${active===key?'aria-current="page"':''}${url.startsWith('http')?' rel="external"':''}`)).join('');
 }

@@ -2,7 +2,7 @@
 
 A responsive, bilingual website for the science fiction novel **Snowmoon** and its illustrated episode adaptation. Built with static HTML, CSS, and JavaScript for Cloudflare Pages.
 
-[Chinese documentation](README.zh-CN.md) · [Original English novel](https://vitalik.eth.limo/snowmoon/) · [GPL v3](LICENSE)
+[简体中文](README.zh-CN.md) · [Original English novel](https://vitalik.eth.limo/snowmoon/) · [GPL v3](LICENSE)
 
 ## Features
 

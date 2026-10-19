@@ -4,6 +4,7 @@ from PIL import Image, ImageOps, ImageDraw, ImageFont
 import json
 import hashlib
 import requests
+import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 PROJECT = ROOT.parent
@@ -27,14 +28,17 @@ def find_prompt(data, key):
 
 def convert(source, name, widths, portrait=False, chapter=None):
     image = Image.open(source).convert('RGB')
-    # Character references include a printed label near the feet; portraits use an upper-body crop.
+    # Keep the original top edge and a 5:6 upper-body frame. A second,
+    # centered landscape crop would remove hair and foreheads.
     if portrait:
         w,h=image.size
-        image=image.crop((int(w*.13), int(h*.035), int(w*.87), int(h*.60)))
+        left,right=int(w*.13),int(w*.87)
+        crop_box=(left,0,right,min(h,round((right-left)*6/5)))
+        image=image.crop(crop_box)
     outputs=[]
     for width in widths:
-        height = round(width*5/6) if portrait else round(width*9/16)
-        resized=ImageOps.fit(image, (width,height), Image.Resampling.LANCZOS, centering=(.5,.25) if portrait else (.5,.5))
+        height = round(width*6/5) if portrait else round(width*9/16)
+        resized=ImageOps.fit(image, (width,height), Image.Resampling.LANCZOS, centering=(.5,0) if portrait else (.5,.5))
         target=ASSETS/f'{name}-{width}.webp'
         resized.save(target,'WEBP',quality=76,method=6)
         outputs.append({'file':target.relative_to(ROOT).as_posix(),'bytes':target.stat().st_size,'width':width,'height':height})
@@ -51,9 +55,21 @@ def convert(source, name, widths, portrait=False, chapter=None):
             prompt=find_prompt(json.loads(candidate.read_text(encoding='utf-8')),source.stem)
             if prompt: break
     records.append({'name':name,'sourceFile':source.relative_to(PROJECT).as_posix(),'sourceSha256':hashlib.sha256(source.read_bytes()).hexdigest(),
+                    **({'portraitCrop':{'box':crop_box,'aspectRatio':'5:6','alignment':'top'}} if portrait else {}),
                     'process':'Pillow crop/resize + WebP quality 76, method 6; no generative edits',
                     'artwork':'AI-assisted illustration from the Snowmoon motion-comic production',
                     'prompt':prompt,'outputs':outputs})
+
+if '--portraits-only' in sys.argv:
+    characters=json.loads((ROOT/'content/characters.json').read_text(encoding='utf-8'))
+    for character in characters:
+        convert(PROJECT/'concept-art/characters'/character['file'],character['slug'],[360,600],portrait=True)
+    replacements={record['name']:record for record in records}
+    provenance_path=ROOT/'content/artwork-provenance.json'
+    existing=json.loads(provenance_path.read_text(encoding='utf-8'))
+    provenance_path.write_text(json.dumps([replacements.get(record['name'],record) for record in existing],ensure_ascii=False,indent=2),encoding='utf-8')
+    print(json.dumps({'portraitsUpdated':len(records),'variants':sum(len(record['outputs']) for record in records),'totalBytes':sum(output['bytes'] for record in records for output in record['outputs'])}),flush=True)
+    sys.exit(0)
 
 convert(PROJECT/'snowmoon-episode/public/episode-01/images/04-skybridge.png','hero',[640,960,1600],chapter=1)
 episodes=json.loads((ROOT/'content/episodes.json').read_text(encoding='utf-8'))
