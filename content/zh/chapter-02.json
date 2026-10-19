@@ -1,0 +1,17 @@
+{
+  "chapter": 2,
+  "source": "https://vitalik.eth.limo/snowmoon/html/chapter-2.html",
+  "sourceSha256": "091345a9315f10f1d1c730888abda1ada30e641c6d9571a7645457e45b2361c0",
+  "sourceTranslatableNodes": 140,
+  "translatedNodes": 140,
+  "sourceParagraphs": 122,
+  "outputParagraphs": 122,
+  "terminologyProtection": "opaque-tokens-v2",
+  "provider": "Google Translate public endpoint; machine-assisted draft, not a certified translation",
+  "humanReviewed": false,
+  "omittedBlocks": 0,
+  "targetedEditorialCorrections": 0,
+  "tablesPreserved": 1,
+  "storyDiagramsPreserved": 2,
+  "translationFileSha256": "83a1e7d627285aa928d64c6969b4d3886c33f6e2e8c9fd9588171e173e6c47a0"
+}

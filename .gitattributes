@@ -1,0 +1,2 @@
+# Preserve exact bytes across platforms: source and translation reports include hashes.
+* -text

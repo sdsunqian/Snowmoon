@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "enTitle": "A Quiet Kind of Trust",
+    "zhTitle": "安静的信任",
+    "enSummary": "A walk through Meldan introduces Gladias to the everyday proofs, public votes and carefully protected privacy of Veridia.",
+    "zhSummary": "格拉迪亚斯漫步梅尔丹。身份凭证、公共投票与隐私保护，交织成维里迪亚看似平静的日常。",
+    "place": "Meldan, Veridia",
+    "zhPlace": "梅尔丹 · 维里迪亚",
+    "durationSeconds": 1324.25
+  },
+  {
+    "id": 2,
+    "enTitle": "Signals and Shields",
+    "zhTitle": "信号与屏障",
+    "enSummary": "Fin and Zei explore Pafogai Du, where electronics workshops, sensors and anti-transmission foil reveal a different approach to technology.",
+    "zhSummary": "芬与泽伊走进帕福盖城的电子商街。从传感器到反传输箔，泽戈以自己的方式处理技术与隐私。",
+    "place": "Pafogai Du, Dzego",
+    "zhPlace": "帕福盖城 · 泽戈",
+    "durationSeconds": 858.875
+  },
+  {
+    "id": 3,
+    "enTitle": "The Price of Comfort",
+    "zhTitle": "舒适的代价",
+    "enSummary": "A poster in a Meldan tunnel challenges the gap between a beautiful Veridia and a strong one. Gladias stops to read.",
+    "zhSummary": "梅尔丹隧道里的一张海报，质问美丽与强大之间的距离。格拉迪亚斯停下脚步，读起其中的主张。",
+    "place": "Meldan, Veridia",
+    "zhPlace": "梅尔丹 · 维里迪亚",
+    "durationSeconds": 1053.25
+  },
+  {
+    "id": 4,
+    "enTitle": "Rules of the Game",
+    "zhTitle": "游戏的规则",
+    "enSummary": "Over a courtyard meal, Zei shows Fin a Minpentai game. Strategies evolve while life in Pafogai Du carries on around them.",
+    "zhSummary": "庭院餐桌旁，泽伊向芬展示敏彭泰对局。策略不断变化，周围的城市也按自己的规则运行。",
+    "place": "Pafogai Du, Dzego",
+    "zhPlace": "帕福盖城 · 泽戈",
+    "durationSeconds": 1250.125
+  },
+  {
+    "id": 5,
+    "enTitle": "A City Beyond Home",
+    "zhTitle": "家园之外的城市",
+    "enSummary": "Zei, Min and Bai arrive in Freetown. Their first journey through the city opens a window onto the United Cities.",
+    "zhSummary": "泽伊、敏和拜抵达自由城。一次异乡旅程，让联合城邦的生活与秩序逐渐显现。",
+    "place": "Freetown, United Cities",
+    "zhPlace": "自由城 · 联合城邦",
+    "durationSeconds": 631.125
+  },
+  {
+    "id": 6,
+    "enTitle": "Behind the Privacy Robe",
+    "zhTitle": "隐私袍之后",
+    "enSummary": "Gladias returns home through cold rain. Beneath the routines of a private room, the weight of his responsibilities remains.",
+    "zhSummary": "格拉迪亚斯冒着冷雨回家。关上门、脱下隐私袍之后，职责与困惑依然没有离开。",
+    "place": "Meldan, Veridia",
+    "zhPlace": "梅尔丹 · 维里迪亚",
+    "durationSeconds": 1169.25
+  },
+  {
+    "id": 7,
+    "enTitle": "Practice and Possibility",
+    "zhTitle": "练习与可能",
+    "enSummary": "Zei studies Minpentai strategies over a meal. Fin brings news of his linguistics training and asks about the coming game.",
+    "zhSummary": "泽伊一边用餐，一边研究敏彭泰。芬带来语言学训练的进展，两人谈起即将到来的比赛。",
+    "place": "Pafogai Du, Dzego",
+    "zhPlace": "帕福盖城 · 泽戈",
+    "durationSeconds": 952.541667
+  },
+  {
+    "id": 8,
+    "enTitle": "Messages from Elsewhere",
+    "zhTitle": "来自远方的消息",
+    "enSummary": "Seila sends photographs from Iptak. For Gladias, unfamiliar buildings and signs become an invitation to look beyond Veridia.",
+    "zhSummary": "塞拉从伊普塔克发来照片。陌生的建筑、色彩与文字，让格拉迪亚斯看见维里迪亚之外的另一种生活。",
+    "place": "Meldan, Veridia",
+    "zhPlace": "梅尔丹 · 维里迪亚",
+    "durationSeconds": 977.958333
+  },
+  {
+    "id": 9,
+    "enTitle": "What Friends Do Not Ask",
+    "zhTitle": "朋友没有问过的事",
+    "enSummary": "A difficult conversation between Bai and Fin exposes assumptions about family, friendship and what it means to pay attention.",
+    "zhSummary": "拜与芬的一场艰难对话，揭开关于家庭与友谊的误解。有时，伤人的恰恰是从未问出口的问题。",
+    "place": "Pafogai Du, Dzego",
+    "zhPlace": "帕福盖城 · 泽戈",
+    "durationSeconds": 970.416667
+  },
+  {
+    "id": 10,
+    "enTitle": "The Cost of a Morning",
+    "zhTitle": "一个早晨的价格",
+    "enSummary": "Jahn arrives at the Freetown Economics Institute, notices rising prices and meets Utaku, a doctoral student from Belpaki.",
+    "zhSummary": "贾恩来到自由城经济研究所，发现费用上涨，并结识了来自贝尔帕基的博士生乌塔库。",
+    "place": "Freetown, United Cities",
+    "zhPlace": "自由城 · 联合城邦",
+    "durationSeconds": 1190.291667
+  },
+  {
+    "id": 11,
+    "enTitle": "A Day on the Field",
+    "zhTitle": "球场上的一天",
+    "enSummary": "Gladias joins Seila, Daia and Vil for his son's first real Helisport game. Family conversation turns toward an ongoing lawsuit.",
+    "zhSummary": "格拉迪亚斯与塞拉、达娅和维尔相聚，观看儿子的首场正式 Helisport 比赛。闲谈间，一场诉讼浮出水面。",
+    "place": "Meldan, Veridia",
+    "zhPlace": "梅尔丹 · 维里迪亚",
+    "durationSeconds": 1011.416667
+  },
+  {
+    "id": 12,
+    "enTitle": "Arrival in Sadzu Du",
+    "zhTitle": "抵达萨祖城",
+    "enSummary": "Zei's train enters Dzego's capital. He finishes one more practice game before stepping into the next stage of his journey.",
+    "zhSummary": "列车驶入泽戈首都萨祖城。泽伊趁下车前完成一盘练习，准备迎接旅程的下一阶段。",
+    "place": "Sadzu Du, Dzego",
+    "zhPlace": "萨祖城 · 泽戈",
+    "durationSeconds": 1157.541667
+  },
+  {
+    "id": 13,
+    "enTitle": "How Much Is Too Much?",
+    "zhTitle": "干预的边界",
+    "enSummary": "In a familiar booth, Gladias and Delwart discuss the Keepers, public rubrics and whether Veridia intervenes too much.",
+    "zhSummary": "熟悉的隔间里，格拉迪亚斯与德尔沃特谈论守护者和公共评价准则：维里迪亚是否干预得太多了？",
+    "place": "Meldan, Veridia",
+    "zhPlace": "梅尔丹 · 维里迪亚",
+    "durationSeconds": 693.375
+  },
+  {
+    "id": 14,
+    "enTitle": "Before the Semi-final",
+    "zhTitle": "半决赛之前",
+    "enSummary": "On the morning of his semi-final, Zei meets Bai in the hotel restaurant. Preparation and personal attention share the same table.",
+    "zhSummary": "半决赛当天清晨，泽伊在酒店餐厅遇见拜。备赛的策略之外，两人的相处也悄然变化。",
+    "place": "Sadzu Du, Dzego",
+    "zhPlace": "萨祖城 · 泽戈",
+    "durationSeconds": 941.0
+  },
+  {
+    "id": 15,
+    "enTitle": "The Broadcast",
+    "zhTitle": "特别播报",
+    "enSummary": "Jahn's quiet morning is interrupted by news that the Arctic Empire has invaded and annexed Redshire.",
+    "zhSummary": "贾恩原本平静的清晨，被一条特别新闻打断：北极帝国已经入侵并吞并红郡。",
+    "place": "Freetown, United Cities",
+    "zhPlace": "自由城 · 联合城邦",
+    "durationSeconds": 911.916667
+  },
+  {
+    "id": 16,
+    "enTitle": "An Explanation Owed",
+    "zhTitle": "必须说清的事",
+    "enSummary": "Gladias confronts Delwart. Their disagreement about defense gives way to more urgent questions about loyalties and hidden connections.",
+    "zhSummary": "格拉迪亚斯当面质问德尔沃特。关于国防的分歧，逐渐变成对身份、立场与隐秘联系的追问。",
+    "place": "Meldan, Veridia",
+    "zhPlace": "梅尔丹 · 维里迪亚",
+    "durationSeconds": 679.875
+  },
+  {
+    "id": 17,
+    "enTitle": "Inside Parliament",
+    "zhTitle": "走进议会",
+    "enSummary": "An invitation brings Gladias to the Veridian Parliament and a meeting with Senator Verdow.",
+    "zhSummary": "一份邀请将格拉迪亚斯带进维里迪亚议会。他与维尔多议员见面，试图为眼前的困局寻找出路。",
+    "place": "Meldan, Veridia",
+    "zhPlace": "梅尔丹 · 维里迪亚",
+    "durationSeconds": 687.291667
+  },
+  {
+    "id": 18,
+    "enTitle": "Windows That Are Not Windows",
+    "zhTitle": "不是真正的窗户",
+    "enSummary": "Gladias meets Zei and Bai in Dzego. A carefully enclosed car introduces him to another kind of privacy infrastructure.",
+    "zhSummary": "格拉迪亚斯抵达泽戈，与泽伊和拜会面。密闭车厢里的模拟窗户，揭示了另一套保护隐私的基础设施。",
+    "place": "Pafogai Du, Dzego",
+    "zhPlace": "帕福盖城 · 泽戈",
+    "durationSeconds": 856.5
+  },
+  {
+    "id": 19,
+    "enTitle": "Learning from Dzego",
+    "zhTitle": "向泽戈学习",
+    "enSummary": "Deep inside the mountain pyramid, Zei introduces Gladias to Den and to the institutions confronting an Arctic shadow campaign.",
+    "zhSummary": "山体金字塔深处，泽伊向格拉迪亚斯介绍登，以及一直抵御北极帝国隐蔽行动的组织。",
+    "place": "Pafogai Du, Dzego",
+    "zhPlace": "帕福盖城 · 泽戈",
+    "durationSeconds": 1022.833333
+  },
+  {
+    "id": 20,
+    "enTitle": "The Red Alert",
+    "zhTitle": "红色警报",
+    "enSummary": "Seila wakes to a message from Emerald: Northglade has been invaded. Febric and Hreda are there.",
+    "zhSummary": "塞拉被翡翠的红色警报惊醒：北林遭到入侵。而费布里克和赫蕾达就在那儿。",
+    "place": "Meldan, Veridia",
+    "zhPlace": "梅尔丹 · 维里迪亚",
+    "durationSeconds": 1139.458333
+  },
+  {
+    "id": 21,
+    "enTitle": "Around the Dinner Table",
+    "zhTitle": "晚餐桌旁",
+    "enSummary": "Family and friends gather at Seila's home as they wait for news of the children living as refugees in Greater Plum Harbor.",
+    "zhSummary": "亲友来到塞拉家里，围坐等待晚餐。远在大梅港避难的孩子，成为每个人心中的牵挂。",
+    "place": "Meldan, Veridia",
+    "zhPlace": "梅尔丹 · 维里迪亚",
+    "durationSeconds": 720.166667
+  },
+  {
+    "id": 22,
+    "enTitle": "An Uneven City",
+    "zhTitle": "参差的城市",
+    "enSummary": "Jahn crosses Freetown by taxi, observing its contrasts and the small acts that make public life possible.",
+    "zhSummary": "贾恩乘出租车穿过自由城。参差的建筑、无人清理的垃圾与自发放映的电影，呈现公共生活的另一面。",
+    "place": "Freetown, United Cities",
+    "zhPlace": "自由城 · 联合城邦",
+    "durationSeconds": 925.583333
+  },
+  {
+    "id": 23,
+    "enTitle": "Under the Mountain",
+    "zhTitle": "山体之下",
+    "enSummary": "Gladias, Bai and Fin sit together in the underground cafeteria, surrounded by greenery, mirrors and newly added air filters.",
+    "zhSummary": "格拉迪亚斯、拜和芬聚在地下餐厅。绿植、镜面和新添的空气过滤器之间，外部世界的压力不断渗入。",
+    "place": "Pafogai Du, Dzego",
+    "zhPlace": "帕福盖城 · 泽戈",
+    "durationSeconds": 747.916667
+  },
+  {
+    "id": 24,
+    "enTitle": "A Sleepless Decision",
+    "zhTitle": "无眠的决定",
+    "enSummary": "After a painful call with Seila, Gladias cannot sleep. Fear for his children pushes him toward an unusual decision.",
+    "zhSummary": "与塞拉的一通电话后，格拉迪亚斯彻夜难眠。对孩子的担忧，推动他做出一个不同寻常的决定。",
+    "place": "Pafogai Du, Dzego",
+    "zhPlace": "帕福盖城 · 泽戈",
+    "durationSeconds": 647.333333
+  },
+  {
+    "id": 25,
+    "enTitle": "Learning by Playing",
+    "zhTitle": "在博弈中学习",
+    "enSummary": "Zei teaches Gladias a game with four piles of circles. A simple set of rules becomes an exercise in strategic thinking.",
+    "zhSummary": "泽伊用四堆圆片教格拉迪亚斯玩游戏。简单的规则之下，是对策略与判断的另一种训练。",
+    "place": "Pafogai Du, Dzego",
+    "zhPlace": "帕福盖城 · 泽戈",
+    "durationSeconds": 681.833333
+  },
+  {
+    "id": 26,
+    "enTitle": "Back to Meldan",
+    "zhTitle": "重返梅尔丹",
+    "enSummary": "Zei, Bai, Gladias and Den fly toward Meldan. The view of Veridia returns as a new chapter of their work begins.",
+    "zhSummary": "泽伊、拜、格拉迪亚斯与登乘飞机前往梅尔丹。维里迪亚的景色重新出现，新的行动也即将展开。",
+    "place": "Veridia",
+    "zhPlace": "维里迪亚",
+    "durationSeconds": 1248.25
+  },
+  {
+    "id": 27,
+    "enTitle": "Another Way Forward",
+    "zhTitle": "另一条路",
+    "enSummary": "Gladias fears that the plan has failed. Seila arrives at his room with comfort and a different idea.",
+    "zhSummary": "格拉迪亚斯以为计划已经失败。塞拉来到他的房间，带来拥抱，也带来一个新的想法。",
+    "place": "Meldan, Veridia",
+    "zhPlace": "梅尔丹 · 维里迪亚",
+    "durationSeconds": 1186.208333
+  },
+  {
+    "id": 28,
+    "enTitle": "A General Comes to Talk",
+    "zhTitle": "将军来访",
+    "enSummary": "Verdow brings an unexpected visitor to the group: Lektor, a general who wants to discuss the ongoing case.",
+    "zhSummary": "维尔多带来一位意外访客：莱克托尔将军。他想与众人谈谈正在进行的案件。",
+    "place": "Meldan, Veridia",
+    "zhPlace": "梅尔丹 · 维里迪亚",
+    "durationSeconds": 672.083333
+  },
+  {
+    "id": 29,
+    "enTitle": "The Snow-covered Frontier",
+    "zhTitle": "覆雪的前线",
+    "enSummary": "Zei and Mu stand above Elenar Forest in the cold dawn. Their preparations meet the uncertainty of what comes next.",
+    "zhSummary": "寒冷的黎明，泽伊与穆站在埃莱纳森林的雪坡上。准备终将接受现实的检验，未来仍未确定。",
+    "place": "Elenar Forest, Veridia",
+    "zhPlace": "埃莱纳森林 · 维里迪亚",
+    "durationSeconds": 1005.958333
+  },
+  {
+    "id": 30,
+    "enTitle": "Until Sunrise",
+    "zhTitle": "直到日出",
+    "enSummary": "As a slow retreat holds back the Arctic drones, Zei receives a message from Deluin offering access to their simulated environment.",
+    "zhSummary": "缓慢后撤暂时拖住北极无人机。泽伊收到德鲁因的消息：他可以提供无人机模拟环境的访问权限。",
+    "place": "Elenar Forest, Veridia",
+    "zhPlace": "埃莱纳森林 · 维里迪亚",
+    "durationSeconds": 1116.9166666666667
+  },
+  {
+    "id": 31,
+    "enTitle": "Above Northglade",
+    "zhTitle": "北林之上",
+    "enSummary": "Zei, Bai and Mu climb a snowy mountain stairway. From the platform above, Northglade spreads out beneath them.",
+    "zhSummary": "泽伊、拜和穆沿着覆雪的山间台阶向上攀登。来到山顶平台，北林在他们脚下展开。",
+    "place": "Northglade, Veridia",
+    "zhPlace": "北林 · 维里迪亚",
+    "durationSeconds": 688.125
+  },
+  {
+    "id": 32,
+    "enTitle": "The Path, Again",
+    "zhTitle": "再走一次那条路",
+    "enSummary": "Gladias and Seila return to the familiar paths of Kalimar. The everyday city reveals the traces of everything that has changed.",
+    "zhSummary": "格拉迪亚斯与塞拉再次走过卡利马尔熟悉的小路。看似寻常的城市，已留下这一切变化的痕迹。",
+    "place": "Meldan, Veridia",
+    "zhPlace": "梅尔丹 · 维里迪亚",
+    "durationSeconds": 997.125
+  }
+]

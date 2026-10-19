@@ -1,0 +1,866 @@
+[
+  {
+    "name": "hero",
+    "sourceFile": "snowmoon-episode/public/episode-01/images/04-skybridge.png",
+    "sourceSha256": "3fba80dab5cec85e2ddb8a18e02bace30865188f0018989f8de98f51895e7920",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Asset type: a single cinematic shot for SNOWMOON Chapter 1, a future-science-fiction 2D motion comic for American audiences. Original Western graphic-novel style matching reference: confident variable-width black ink contours, clean two-level cel shading, crisp expressive anatomy, small restrained halftone shadow areas, sophisticated readable shapes. NOT photorealistic, not a 3D render, not anime/chibi, not a superhero franchise. Full-bleed LANDSCAPE scene, ideally 1920x1080 / 16:9. No multi-panel layout, no inset portrait, no contact sheet, no swatches, no external labels, no watermark. Keep important faces/objects in middle 75% of canvas, lower 15% uncluttered for subtitles which will be added later. No Chinese or any other CJK characters anywhere. No readable text unless explicitly requested; devices can have abstract shapes because exact English interface text will be composited later. Shared palette charcoal, plum, pine green, warm stone, ice blue, amber. Plausible subtle advanced technology.\nCharacter reference: image 1 is Gladias identity and costume reference ONLY, not a target to reproduce the reference layout. Preserve early-40s warm-light-brown face, brown wavy hair graying at temples, kind tired dark eyes, no beard, average build. In outdoors/public anonymous tasks he wears the SAME completely plain dark-purple loose ankle-length privacy robe and purple height-normalizing shoes, HOOD UP, lower-face cover on; no emblems or identifying trim. When a shot explicitly requires visible face he has hood down. When hood up his hair isn't exposed. Do not decorate robe. No weapons or fantasy magic.\nScene: Gladias pauses at the middle railing of a pedestrian SKYBRIDGE over a BUSY ROAD, framed from side and behind. Purple robe, hood lowered ONLY here to show his thoughtful reference face, narrow silken gray throat band, holding no weapon. Two-kilometer road with autobuses/cars/delivery robots curves RIGHT in distance. Beyond it a wooded mountain with several roughly fifteen-storey apartment towers shaped like oversize medieval castle towers with many modern windows. Green shrubbery at bridge ends. No river under bridge. Quiet contemplative daylight, expansive landscape.",
+    "outputs": [
+      {
+        "file": "public/assets/hero-640.webp",
+        "bytes": 52346,
+        "width": 640,
+        "height": 360
+      },
+      {
+        "file": "public/assets/hero-960.webp",
+        "bytes": 103698,
+        "width": 960,
+        "height": 540
+      },
+      {
+        "file": "public/assets/hero-1600.webp",
+        "bytes": 219734,
+        "width": 1600,
+        "height": 900
+      }
+    ]
+  },
+  {
+    "name": "ep-01",
+    "sourceFile": "snowmoon-episode/public/episode-01/images/01-kalimar-path.png",
+    "sourceSha256": "715cb4066f90b3d737c6f60004fe747246a7ef3659964414d22b925f53e85b84",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Asset type: a single cinematic shot for SNOWMOON Chapter 1, a future-science-fiction 2D motion comic for American audiences. Original Western graphic-novel style matching reference: confident variable-width black ink contours, clean two-level cel shading, crisp expressive anatomy, small restrained halftone shadow areas, sophisticated readable shapes. NOT photorealistic, not a 3D render, not anime/chibi, not a superhero franchise. Full-bleed LANDSCAPE scene, ideally 1920x1080 / 16:9. No multi-panel layout, no inset portrait, no contact sheet, no swatches, no external labels, no watermark. Keep important faces/objects in middle 75% of canvas, lower 15% uncluttered for subtitles which will be added later. No Chinese or any other CJK characters anywhere. No readable text unless explicitly requested; devices can have abstract shapes because exact English interface text will be composited later. Shared palette charcoal, plum, pine green, warm stone, ice blue, amber. Plausible subtle advanced technology.\nCharacter reference: image 1 is Gladias identity and costume reference ONLY, not a target to reproduce the reference layout. Preserve early-40s warm-light-brown face, brown wavy hair graying at temples, kind tired dark eyes, no beard, average build. In outdoors/public anonymous tasks he wears the SAME completely plain dark-purple loose ankle-length privacy robe and purple height-normalizing shoes, HOOD UP, lower-face cover on; no emblems or identifying trim. When a shot explicitly requires visible face he has hood down. When hood up his hair isn't exposed. Do not decorate robe. No weapons or fantasy magic.\nScene: A quiet tree-shaded pedestrian path in Kalimar, Meldan. Gladias walks in a plain purple hooded privacy robe, THREE-QUARTER REAR view, among clean pale stone-brick houses of medieval-inspired craft with modern generous windows, small unlettered shop signs, ferns and leaf beds. Dense tall trees tower on both sides, ordinary peaceful future civilian neighborhood. Cool fresh daylight, wide establishing shot, visual path leads into depth.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-01-480.webp",
+        "bytes": 39016,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-01-960.webp",
+        "bytes": 128770,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-02",
+    "sourceFile": "snowmoon-episode/public/episode-02/images/001-000-1.png",
+    "sourceSha256": "72adadbfdcdbaf40f6f5fe374d4338b7dbbed3e803e2e690e3a72e3b6e693ad7",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Asset: unique single full-screen shot for Snowmoon Chapter 2. American-market 2D science fiction graphic novel illustration, wide landscape 16:9, full bleed, crisp dark ink contours, expressive anatomically coherent faces and hands, cel shaded muted green/ochre/slate blue, subtle halftone and crosshatching, mature civilian future rather than anime or photorealism. Restrained cinematic staging, detailed lived-in settings. No letters, captions, speech balloons, numbers, watermarks or Chinese; exact typography will be added deterministically. Keep main faces in top 70 percent, bottom 18 percent safe for English subtitles.\nReferences: Image 1: Zei identity and style reference, young lean male with warm light-medium skin, straight tousled black diagonal-fringe hair, pine-green jacket over cream shirt, charcoal cargo trousers, dark lowtop shoes with pale soles, wrist terminal. Image 2: Fin identity reference, young male with deep brown skin, tight short black curls, slate-blue hooded overshirt over cream shirt, thin teal fabric neckband, charcoal cargos, rounded backpack, slate sneakers; no booklet unless needed. \nScene: Fin and Zei step off a modest futuristic civilian autobus into a tree-lined low-rise neighborhood in Pafogai Du. Peaceful daytime.\nShot-specific original passage for content alignment (do not render these words): Chapter 2\nPafogai Du, Dzego·3724 Snowmoon 5\nFin and Zei got off the autobus and walked down Hun Min street.\nHun Min street\nComposition: Wide establishing shot with strong depth, natural unobstructed staging. Shot variant 1/1: newly compose this moment; do not repeat a previous panel or character pose.\nStrict current-moment continuity: Zei and Fin are completely healthy: NO injuries, bandages, casts, slings or pain poses; hands and arms natural and relaxed. Classroom intact. This moment is OUTDOORS on the tree-shaded street, before arriving at any classroom. Only Fin and Zei are principal characters; NO instructor or older ochre-jacketed man, no third companion, no classroom or lecture furniture. Their quoted comments do not change their physical location. No extra plot event or invented dialogue.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-02-480.webp",
+        "bytes": 36990,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-02-960.webp",
+        "bytes": 116280,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-03",
+    "sourceFile": "snowmoon-episode/public/episode-03/images/001-000-1.png",
+    "sourceSha256": "20f5501ca530d29101d0aa6d6f50ecb53d213101e2a20dd5f250ad097e0a3d47",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Asset: unique shot for Snowmoon Chapter 3. American-market 2D futuristic science-fiction graphic novel, cinematic full-bleed 16:9 landscape. Confident dark ink contours, natural adult anatomy and hands, crisp cel shading, subtle restrained halftone and crosshatching. Muted plum, grey, soft green, warm light. Civilian world, not superheroes, anime, photo or 3D. No text, letters, numbers, speech balloons, watermark or Chinese anywhere; typography added later. Main subject above bottom 18% subtitle-safe area.\nInput references: Image 1 is Gladias face/costume/style reference ONLY: early-40s warm light-brown skin, wavy brown hair grey temples, soft rectangular clean-shaven face, narrow gray throat band, plain dark plum ankle-length loose hooded robe and matching platform shoes. Do not copy reference pose or hand terminal; use wrist watch when specified. Image 2 is ONLY the fully concealing privacy robe costume reference; when hood and mask are ON, both characters must look like this reference, no faces shown. Ignore reference text. Image 3, if supplied, is ONLY the robot design.\nCurrent scene: Gladias alone, disguised in a privacy robe, walks through Meldan past small civilian shops with flowers, garments and electronic equipment; crosses a street.\nVerbatim passage for matching current moment (DO NOT draw these words): Chapter 3\nMeldan, Veridia·3724 Snowmoon 8\nGladias was walking forward along\nComposition: Wide establishing composition with strong scene depth. Variant 1 of 2; create a new camera angle, new framing and natural pose, never repeat prior panel.\nContinuity:  Gladias wears HOOD UP and a FULL OPAQUE PLUM FACE COVER, concealing forehead, eyes, nose and mouth exactly like the privacy robe prop reference, slim gray strap across eye area. No visible facial features, hair or eyes. No personal emblems. ONLY Gladias is the principal robed person until Delwart arrives at line130. Do not add Mov or a second robed companion. Any background pedestrians far away are incidental, never accompanying or interacting with him. Seila never physically present in this chapter. Only depict events occurring now, not literal imagery from jokes, claims, threats, memories or hypothetical speech. No invented event.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-03-480.webp",
+        "bytes": 34674,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-03-960.webp",
+        "bytes": 113740,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-04",
+    "sourceFile": "snowmoon-episode/public/episode-04/images/001-000-1.png",
+    "sourceSha256": "e8107cca198bd74e787a8925a1a95069dc87e9c367490887d52caf96edf41452",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Asset: unique Snowmoon Chapter 4 shot 001-000-1. American-market 2D futuristic science-fiction graphic novel, cinematic full-bleed 16:9 landscape, confident dark ink contours, natural adult anatomy and hands, crisp cel shading, restrained halftone and crosshatching. Muted plum, grey, pine green, rust amber, warm light with cool digital accents. CIVILIAN world. Not superhero, anime, photo or 3D. NO text, letters, numbers, speech balloons, watermark or Chinese; exact typography added later. Subject above bottom18% subtitle-safe area.\nInput reference roles: Image 1 ONLY Fin face/costume/style reference: 18-20-year-old male, deep brown skin, short tight black curls, rounded warm face, light slate-blue hooded overshirt, cream shirt, charcoal cargo trousers, slate sneakers, teal fabric neckband, rounded backpack. Image 2 ONLY Zei face/costume/style reference: 18-year-old lean male, warm light-medium skin, youthful angular face, thick black hair with uneven diagonal fringe, pine-green lightweight boxy technical jacket, cream shirt, charcoal cargo trousers, dark sneakers. LEFT arm HEALED, no cast or bandage.\nCurrent scene: Fin and Zei sit opposite one another at a simple table in an outdoor restaurant courtyard in Pafogai Du. Other teens and older couples at distant tables. Empty main table, no meal delivered. Warm afternoon light.\nComposition: Wide establishing with strong scene depth. Unique moment 1/2, fresh angle and pose.\nContinuity: Only principal characters listed here may be depicted in current location. References are identity/style ONLY; do not copy portraits, captions or hand devices automatically. Do not illustrate claims, jokes, hypothetical examples or memories as current physical events. Fin LEFT in blue overshirt, Zei RIGHT in green jacket. No delivered meals (only ordering occurs); no Bai/Mu physically present.\nCRITICAL LOCATION LOCK: Extra last reference is the SAME outdoor courtyard table and chairs from the opening. BOTH friends are SEATED on separate chairs, opposite each other AT THIS TABLE throughout the entire conversation. Never put them on a park bench, stone ledge, indoors, library, ancient temple, standing beside a robot or walking away. No delivered cups, meal, plates, laptops, extra books or decorative ancient glyphs. The only props: Zei single hand device; Fin small booklet after he takes it out. Booklet pages are BLANK cream or simple sparse geometric circles/squares/arrows with NO lettering, hieroglyphics, Chinese-like or Japanese-like symbols. The discussion does not cause a location change. Fin remains left; Zei right. Keep same bright courtyard; pose/framing can vary.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-04-480.webp",
+        "bytes": 33892,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-04-960.webp",
+        "bytes": 97720,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-05",
+    "sourceFile": "snowmoon-episode/public/episode-05/images/001-000-1.png",
+    "sourceSha256": "bf557043bfb8d6cbf9e83aa954487054088919edeafd222a77fddb4c9212b44b",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Unique Snowmoon Chapter 5 panel 001-000-1. American-market futuristic 2D science-fiction graphic novel, cinematic full-bleed 16:9. Confident varied dark ink contours, natural adult faces/anatomy/hands, crisp cel shading, restrained halftone, muted plum grey pine-green rust-amber and warm light, cool civilian technology. Not superhero, anime, photo or 3D. NO text, numbers, letters, equations, speech balloons, watermark or Chinese. Exact typography will be added later. Subject faces above bottom18% subtitle-safe area.\nReferences: Image 1 Zei IDENTITY/COSTUME reference ONLY: 18-year-old lean male, warm light-medium skin, youthful angular face, thick black straight hair with uneven diagonal fringe, focused dark eyes. Same pine-green lightweight boxy technical jacket, cream shirt, charcoal cargo trousers, dark low-top sneakers with pale soles, wrist terminal. One hand casually in pocket, other relaxed as in reference. Healthy left forearm. Image 2 Min IDENTITY/COSTUME reference ONLY: Zei mother, woman in her mid forties, warm light-medium skin and family resemblance to Zei: dark expressive eyes, gently angular face, straight black shoulder-length hair tucked behind ears. Muted burgundy civilian travel jacket over pale sand blouse, charcoal straight trousers, practical dark shoes, wrist terminal. Warm excited expression, no armor. Image 3 Bai IDENTITY/COSTUME reference ONLY: Young female peer 18-20, warm olive-tan skin, diamond face, black short low ponytail with two face strands, direct confident gaze. Same rust-amber short structured jacket over plain purple shirt, charcoal practical trousers, black ankle boots and small black crossbody bag; hand terminal in one hand, other hand near pocket. Functional opaque clothing and normal natural anatomy.\nCurrent scene: Outside the civilian air harbor in Freetown. Zei holds a glass exit door open and calls to his mother Min, who hurries through; Bai follows carrying a SHOPPING BAG. Ordinary travelers distant. No spaceships or flight depicted.\nExact passage (do not letter it): Chapter 5\nFreetown, United Cities·3724\nComposition: Wide establishing with clear setting and deep composition. Unique shot 1/3, fresh framing/pose.\nContinuity: Only listed principal characters in location. References are identity/style ONLY, ignore blank background and captions. Never copy held devices automatically. No additional event beyond passage. No literal flashbacks, imagined claims or jokes as present action. Zei LEFT arm healed; no glasses or cast throughout this chapter.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-05-480.webp",
+        "bytes": 29412,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-05-960.webp",
+        "bytes": 88422,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-06",
+    "sourceFile": "snowmoon-episode/public/episode-06/images/001-000-1.png",
+    "sourceSha256": "282e6335e6bc79f28f14ddf702414499a608ecbb401b61be4f21579b0aac8278",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: precise-object-edit / illustration-story.\nInput Image 1 is the EDIT TARGET: existing Snowmoon Chapter 6 opening panel. Image 2 is Gladias identity and costume reference only.\nPrimary edit: replace the empty nearly-black area covering the RIGHT 40 percent of Image 1 with a seamless COMPLETE continuation of the existing rainy residential scene. The entire 16:9 image must be an illustrated scene all the way to the right edge. There must be NO blank typography area, black gradient, empty dark panel, vignette, matte, overlay, title, letters, Chinese, speech balloons or border.\nKEEP the LEFT 60 percent as close to the original as possible: same one Gladias, face, anatomy, empty hands, hood up, plain dark plum privacy robe, grey neck band, wrist terminal, shoes, walking posture, position and scale; same street perspective, distant buildings and background civilians, lamp, doorway, steps, rain and golden reflections. Do not copy the unhooded reference costume over the hood-up target.\nOn the RIGHT, naturally continue the modest stone house facade behind the existing door, with visible detailed beige-grey stone blocks, believable architectural edges, a civilian residential window with warm amber light, existing shrubbery and low garden wall, and wet pavement/steps below. Match the same perspective and architectural scale. Give the right side visible midtone structure and rain details instead of obscuring it with darkness. No added principal characters, futuristic gadgets, vehicles, weapons, dramatic event or props.\nStyle: preserve original American-market 2D science-fiction graphic novel ink contours, crisp cel shading, subtle halftone, muted plum charcoal stone and amber colors. Night remains night, but the entire scene stays clearly drawn and visible. Full-bleed 16:9 landscape, no lettering anywhere. Central title and subtitles will be added separately in video; do not reserve blank space or draw typography.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-06-480.webp",
+        "bytes": 34600,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-06-960.webp",
+        "bytes": 129832,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-07",
+    "sourceFile": "snowmoon-episode/public/episode-07/images/001-000-1.png",
+    "sourceSha256": "2fc1f292b4b39a6fcd4aa06f5cc9df252e15676dd18e36acf2c62eab344d9956",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Unique Snowmoon Chapter7 panel 001-000-1. American-market futuristic 2D science-fiction GRAPHIC NOVEL, full-bleed cinematic 16:9 landscape, confident dark ink contours, natural faces/anatomy, crisp cel shading, restrained halftone, muted charcoal plum pine green rust amber and stone. Civilian world, no fantasy superhero anime photo or 3D. NO lettering, numbers, text, Chinese, speech balloons, watermark, border or inset panel. FULL complete illustrated scene edge to edge, NO black gradient or reserved blank side. Faces and main action above bottom18% subtitle-safe area.\nReferences: Image1 Zei IDENTITY/COSTUME reference ONLY: 18-year-old lean male, warm light-medium skin, youthful angular face, thick black straight hair with uneven diagonal fringe, focused dark eyes. Same pine-green lightweight boxy technical jacket, cream shirt, charcoal cargo trousers, dark low-top sneakers with pale soles, wrist terminal. One hand casually in pocket, other relaxed as in reference. Healthy left forearm. Both hands empty unless current scene explicitly requires a hand device. No cast or injury.\nCURRENT real action: Open-air civilian COURTYARD restaurant, warm stone paving, leafy trees and ordinary round wood table, gentle daylight, no rain. Zei pine-green jacket and cream shirt, sits with tea cup and bowl/plate of RICE and VEGETABLES, HAND DEVICE in his LEFT hand only; no glasses. Fin blue overshirt and teal neck band, no booklet. Wide opening: Zei ALONE at table, courtyard and restaurant architecture continue across ENTIRE frame. No empty dark area or location card.\nVerbatim passage for synchronization (do NOT letter it): Chapter 7\nPafogai Du, Dzego·3724\nFraming: Wide setting view with cinematic depth. Fresh view/gesture for unique shot 1/3.\nContinuity: depict ONLY current physical events and specified people. Never turn conversation, thoughts, memories or hypotheses into actual scenes. References do NOT authorize copying their handheld props. Minpentai spaceships/gliders/factories/walls are abstract digital CELL PATTERNS, NEVER spacecraft, aircraft, physical factory or war scenes. Zei/Bai during game at separate consoles with thin wired glasses; spectators have NO game glasses. AI only background software. No extra principal characters, extra limbs or duplicate people.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-07-480.webp",
+        "bytes": 39526,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-07-960.webp",
+        "bytes": 126046,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-08",
+    "sourceFile": "snowmoon-episode/public/episode-08/images/001-000-1.png",
+    "sourceSha256": "f0d5cccaa9f3475f743cec2e1c5aa73e79a101f2e2c1da7a4bb1b9dd8625079a",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Unique Snowmoon Chapter8 panel 001-000-1. American-market original future-science-fiction 2D GRAPHIC NOVEL. Full-bleed cinematic 16:9, expressive confident dark ink contours, cel shading and restrained halftone, natural civilian anatomy and consistent charcoal/plum/sage/stone/amber palette. NO anime, 3D or photograph. No Chinese, generated lettering, numbers, labels, speech balloons, watermark, inset or border. Entire frame contains the real complete scene; no black blank side or reserved text area. Main faces/action above bottom18% subtitle area.\nReferences: Image1: Gladias identity/costume reference ONLY: Early-40s male with warm light-brown skin, soft rectangular face, short wavy brown hair graying at temples, kind tired eyes, clean-shaven. Plain dark plum ankle-length loose hooded privacy robe, hood lowered behind neck, face uncovered as in the reference, narrow gray fabric throat band, same purple platform shoes, charcoal hand terminal held in both hands at waist. Face uncovered, hood lowered. Hands empty unless specified.\nCURRENT PHYSICAL SCENE: Meldan civilian future city, tree-lined pedestrian street and warm stone low-rise modern architecture, daytime. Gladias dark-plum ankle-length loose privacy robe, hood DOWN, face visible, narrow grey throat band, purple shoes and wrist terminal. Full establishing scene: Gladias walks alone and looks toward vibrating wrist watch. ENTIRE frame continues street architecture. No location card or blank side.\nOriginal passage for timing, do NOT letter it: Chapter 8\nMeldan, Veridia\nFraming: Wide setting shot with spatial clarity. Fresh composition and gesture 1/3.\nConstraints: ONLY current physical action. Thoughts, anecdotes, hypothetical economic examples and remote voices are NOT new physical scenes. Gladias stays center during hearing, senators at perimeter, one water cup in chair holder. Remote Seila/Mov/Sylka/Ephelion/moderator never appear physically next to Gladias. No extra principal people, duplicate person or extra limbs. References do not authorize copying handheld props unless required.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-08-480.webp",
+        "bytes": 35656,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-08-960.webp",
+        "bytes": 121428,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-09",
+    "sourceFile": "snowmoon-episode/public/episode-09/images/001-000-1.png",
+    "sourceSha256": "8ec37fbaabf96a098e4533f5236ae79d104fa9582bc1e8695c29dcc6e5b1611b",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Unique Snowmoon Chapter9 panel 001-000-1. Original American-market FUTURE SCIENCE FICTION 2D GRAPHIC NOVEL, complete full-bleed cinematic 16:9 scene, expressive clean dark ink contours, confident two-tone cel shading, restrained halftone, realistic civilian anatomy and stable pine-green/slate-blue/rust/charcoal/amber palette. Not anime, 3D, photography or superhero art. No Chinese, generated lettering, digits, speech bubbles, watermark, inset, collage, border or blank side. Main faces/actions above bottom18% subtitle area.\nReferences: Image1: Bai identity/costume ONLY: Young female peer 18-20, warm olive-tan skin, diamond face, black short low ponytail with two face strands, direct confident gaze. Same rust-amber short structured jacket over plain purple shirt, charcoal practical trousers, black ankle boots and small black crossbody bag; hand terminal in one hand, other hand near pocket. Functional opaque clothing and normal natural anatomy. Hand device put away throughout this courtyard conversation. Empty hands except her own tea cup. Image2: Fin identity/costume ONLY: Friendly young male 18-20, deep brown skin, short tight black curls, rounded warm face and broad relaxed smile. Same light slate-blue hooded overshirt, cream inner shirt, charcoal cargo trousers, slate sneakers, narrow teal fabric neckband and wrist terminal. Rounded backpack visible around shoulders, small cream booklet with simple two-hands-meeting line icon held in hand, other hand in pocket. Backpack can rest beside his chair. NO BOOKLET visible until explicitly taken out at line 027.\nCURRENT PHYSICAL SCENE: Daylight courtyard in Pafogai Du, Dzego, original future civilian stone architecture integrated with warm wood, planted greenery and restrained modern details. Bai and Fin sit OPPOSITE at one small table in separate simple chairs, each with their OWN tea cup, simple meal dishes on table. Fin slate-blue overshirt/teal neckband, Bai rust-amber jacket/purple shirt. Exactly these TWO principals. No Zei, no mother, no Den. Full establishing shot. Bai cries quietly while Fin speaks gently, attentive concern. Both seated eating/drinking. Entire frame contains complete courtyard, no text box or blank side. NO booklet yet.\nOriginal text for exact timing, DO NOT LETTER IT: Chapter 9\nPafogai Du, Dzego·3724\nFraming: WIDE establishing courtyard scene, both Bai and Fin seated opposite. No overlay or empty area. Original fresh composition and natural gesture 1/4.\nConstraints: Only current physical events. Past memories, speculative armies, technical examples and thoughts stay speech, not new depicted events. Match source timing of posture/emotion/props; no premature booklet, handheld diagram, car or microscope. Fin/Bai absent from Zei/Den story. Healthy unbandaged Zei arm. Correct identity and costume, one of each named person, five fingers per hand, no duplicate body. Avoid copying handheld reference props unless current source scene requires them.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-09-480.webp",
+        "bytes": 29862,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-09-960.webp",
+        "bytes": 90812,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-10",
+    "sourceFile": "snowmoon-episode/public/episode-10/images/001-000-1.png",
+    "sourceSha256": "a3ab4695f759da6d933b52b0fff712e9e1e9b32adebaf7b3e62fdaff6a91d297",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Unique Snowmoon Chapter10 panel 001-000-1. American-market FUTURE SCI-FI 2D GRAPHIC NOVEL, full-bleed cinematic 16:9 scene, expressive ink contours, confident two-tone cel shading, subtle halftone and natural civilian anatomy. Restrained amber/teal/plum/stone palette. Not anime, photo, 3D or superhero. No Chinese, generated words/digits, speech bubbles, caption boxes, watermark, collage, inset, border or blank side. Main faces/actions above bottom 18 percent subtitle area.\nReferences: Image1 identity/costume: Jahn: Adult local man in his early forties, warm tan skin, broad oval face, short dark-brown hair, neat short beard, friendly observant eyes. Muted ochre civilian overshirt over slate-gray T-shirt, dark navy trousers, brown practical shoes, wrist terminal. No privacy robe, no armor.\nCURRENT PHYSICAL SCENE: Daytime Freetown Economics Institute exterior, full scene from curb to planted glass/stone building, civilian taxi stopped. Jahn gets out, ochre overshirt and charcoal trousers. Only Jahn featured; Utaku not here. No empty side, caption panel or text frame.\nOriginal text timing (do NOT letter): Chapter 10\nFreetown\nFraming: WIDE full-scene Institute curb and taxi, Jahn getting out. Complete environment fills entire frame, no side panel or blank space. Fresh composition and natural gesture 1/2.\nConstraints: Depict ONLY current physical events. Speculation, history, hypothetical weapons, violent lyrics, memories and technical examples remain speech. Match actual meal delivery, posture/emotion, participant arrival, drone deployment, bug discovery/breaking and secrecy timing. Anonymous circle members are NOT any previously named character. Existing civilian costumes stable. Fin absent throughout Dzego scenes. No invented plot events, duplicate identity, extra limb or malformed hand. References props only if current action needs them.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-10-480.webp",
+        "bytes": 22272,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-10-960.webp",
+        "bytes": 81474,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-11",
+    "sourceFile": "snowmoon-episode/public/episode-11/images/001-000-1.png",
+    "sourceSha256": "51c76a03fe2ad76b5d5ff16cf67e0bf5c1189aa47369b9192ab997fdc2a1a3c4",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: precise-object-edit. Edit the LAST reference image, preserve its complete pregame grass field, empty blue sky, waiting families, Seila teal coat, Daia ochre cardigan, Vil russet overshirt and approaching Gladias in dark-plum robe. ONLY CORRECTION: Gladias in background must have his face COMPLETELY UNCOVERED, as shown in his individual identity reference Image4; remove black face mask from nose and mouth, show smiling clean-shaven face and grey temples, hood lowered. Same current full-frame composition, no flying chairs or cables, no new objects, no text, no Chinese. First four references are character identity only, last reference is actual scene edit target.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-11-480.webp",
+        "bytes": 23228,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-11-960.webp",
+        "bytes": 75332,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-12",
+    "sourceFile": "snowmoon-episode/public/episode-12/images/001-000-1.png",
+    "sourceSha256": "b0d00c95a634e2e84322aca13683d0bd9bf47988796ada8a55556cae8c798212",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Unique Snowmoon Chapter12 panel 001-000-1. American-market FUTURISTIC SCI-FI 2D GRAPHIC NOVEL, full-bleed cinematic16:9, expressive confident ink, natural faces, two-tone cel shading, subtle halftone, restrained teal/plum/ochre palette. No anime/chibi/photo/3D. No Chinese, caption box, speech bubble, border, collage, inset, watermark or empty side. No generated words/digits except exact signs/UI explicitly specified. Main faces/actions above bottom18% subtitle area.\nReferences: Image1: identity/costume for Zei: 18-year-old lean male, warm light-medium skin, youthful angular face, thick black straight hair with uneven diagonal fringe, focused dark eyes. Same pine-green lightweight boxy technical jacket, cream shirt, charcoal cargo trousers, dark low-top sneakers with pale soles, wrist terminal. One hand casually in pocket, other relaxed as in reference. Healthy left forearm. Both hands empty unless current scene explicitly requires a hand device. No cast or injury.\nCURRENT PHYSICAL SCENE: Civilian passenger train nearing Sadzu Du, daylight, comfortable muted teal seats, broad window, Zei green jacket/cream shirt, alone in his seat. Full opening: Zei seated looking through broad train window at trees giving way to distant dense city. Complete train/environment fills all frame, no side panel or black blank area.\nExact source timing (DO NOT LETTER): Chapter 12\nSadzu\nFraming: WIDE complete train interior and city through window, no empty right side or text panel. New composition and gesture 1/3.\nConstraints: depict exact current quoted moment, not all scene actions at once. Later events have not happened yet. Natural limbs, no duplicate identity. Remote speech/internal thought are not people present. Abstract game configurations only, no physical space combat. No invented story events or extra named people.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-12-480.webp",
+        "bytes": 22298,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-12-960.webp",
+        "bytes": 65384,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-13",
+    "sourceFile": "snowmoon-episode/public/episode-13/images/001-000-1.png",
+    "sourceSha256": "dc7e834a3c495cf5afebf6bc1f84fbadbd05e3b8a9fa5dd46a7e624efb2e331f",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Unique Chapter13 shot 001-000-1. American-market futuristic SCI-FI 2D GRAPHIC NOVEL, full-bleed cinematic16:9. Confident expressive ink, natural human proportions, cel shading, delicate halftone, restrained plum/teal/amber. No anime/chibi/photography/3D. No Chinese, speech bubble, caption box, sidebar, frames, collage, watermark or black empty half. No generated words/digits except explicit screen inserts, which remain blank. Full scene background extends across frame. Faces/actions above bottom18% subtitle area.\nREFERENCE ROLES: Image1: identity/costume reference for Gladias: Early-40s male with warm light-brown skin, soft rectangular face, short wavy brown hair graying at temples, kind tired eyes, clean-shaven. Plain dark plum ankle-length loose hooded privacy robe, hood lowered behind neck, face uncovered as in the reference, narrow gray fabric throat band, same purple platform shoes, No hand device unless explicitly required. Face uncovered in private booth and restaurant. Outside and on bus hood UP and opaque full-face cover ON; no exposed face. Hands empty unless specified. Image2: identity/costume reference for Delwart: Male in his 40s, pale warm skin, long narrow face, high forehead, neat swept ash-brown hair, clean-shaven, restrained plausible smile and calculating eyes. Same revised standard dark-purple ankle-length loose privacy robe with CLEAR soft hood lowered behind neck and GRAY narrow soft throat band, relaxed unstructured shoulders, no standing priest collar. Matching purple platform shoes. Small gray tea cup held near chest exactly as reference. Tea cup only after the robot brings it; hands empty beforehand.\nCURRENT PHYSICAL LOCATION: Private Greater Plum Harbor cafe booth: warm dark wood, plum cloth curtain entrance, a compact table with decorated warm lamp and TWO flowers at the far end, air filter on floor in corner. Only Gladias and Delwart. Both faces uncovered, loose plum privacy robes with hoods lowered, grey throat bands. No priest collars, no full-face covers indoors in this private conversation. \nONLY CURRENT ACTION: Wide complete booth, Gladias lifts cloth curtain to enter, Delwart already seated. Table, decorated lamp, TWO flowers and floor filter visible. No text panel or black empty side.\nFraming: Wide full booth scene with curtain, lamp, two flowers and filter; full background across16:9. Distinct composition/pose number1 of2.\nConstraints: exact current physical moment only; referenced characters outside the crop do not need to appear. Do not add named people, remote callers, projected faces, political allegories, actual Arctic sabotage, flashbacks, completed votes or later events. Uniform privacy covers obey current location. Subtitles added separately; NO GENERATED TEXT.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-13-480.webp",
+        "bytes": 9814,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-13-960.webp",
+        "bytes": 30510,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-14",
+    "sourceFile": "snowmoon-episode/public/episode-14/images/001-000-1.png",
+    "sourceSha256": "0d63e6227b709efe7766db8e9b3abbb1d152944476780660c5ac5dbdbc50fd72",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. NEW unique full-frame16:9 American-market futuristic2D graphic-novel shot. Image1 EXACT Zei youthful face and hair identity ONLY; ignore jacket of reference. Zei has just woken and sits on edge of hotel bed in PLAIN CREAM SHORT-SLEEVED SLEEP SHIRT, no jacket. Alarm glows beside bed. Green jacket hangs UNUSED over chair in background; not worn until subsequent dressing shot. Same warm pale-wood hotel bedroom and teal bedding. Natural proportions, ink/cel shading, subtle halftone, no anime or3D. Wide full hotel scene. No drink glass or cup in room before delivery, no tea, phone, text, characters, labels, captions, sidebars, black empty space or border. Entire scene fills canvas. Calm morning, no fantasy.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-14-480.webp",
+        "bytes": 16406,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-14-960.webp",
+        "bytes": 48050,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-15",
+    "sourceFile": "snowmoon-episode/public/episode-15/images/001-000-1.png",
+    "sourceSha256": "68d222dbce97107a5048a41d939643508b9bd6aef58181c9abdfc5b195bb1c74",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. UNIQUE Chapter15 shot 001-000-1. American-market FUTURISTIC SCI-FI 2D GRAPHIC NOVEL. Full-bleed16:9, expressive confident ink and NATURAL human proportions, restrained cel shading, subtle halftone, pale-stone/teal/pine-green/plum/amber palette. No anime, chibi, photography or3D. NO Chinese, speech bubbles, captions, sidebar, collage, borders, logos, text, digits, watermark or black blank side. Entire scene fills canvas. Faces and important actions above bottom18% subtitle area.\nREFERENCE ROLES: Image1: exact Jahn identity/clothing: Adult local man in his early forties, warm tan skin, broad oval face, short dark-brown hair, neat short beard, friendly observant eyes. Muted ochre civilian overshirt over slate-gray T-shirt, dark navy trousers, brown practical shoes, wrist terminal. No privacy robe, no armor.\nCURRENT LOCATION: Freetown Economics Institute, future civilian research campus, pale-stone and warm-wood architecture, restrained teal furnishings and planted windows, EARLY MORNING. No attack here. \nCURRENT ACTION: Wide complete institute turnstile entrance and corridor; Jahn calmly arriving in early morning. Full environment fills frame, NO text side panel, blank side or black canvas.\nCURRENT NARRATION EXCERPT: Chapter 15\nFreetown\nFraming: WIDE full institute entrance; no sidebar or blank canvas. Distinct camera/pose 1 of 2; depict only current excerpt and explicit action, never later events.\nContinuity: references establish ONLY identity/costume, not props, white backdrop or lettering. Named people not selected stay outside crop. All Mov speech is REMOTE neckband audio, Deluin is REMOTE TEXT ONLY. No invented actual rescue, voting takeover, ceremony, reunion, train departure, secret disclosure, new military channel, literal cellular-game spacecraft or extra cup. No subtitle text baked into image.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-15-480.webp",
+        "bytes": 21302,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-15-960.webp",
+        "bytes": 71834,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-16",
+    "sourceFile": "snowmoon-episode/public/episode-16/images/001-000-1.png",
+    "sourceSha256": "a1282982ada1cdd38ae37e8f29a67fb3bb5998551638de5b9db27ce26a301e3d",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. UNIQUE Chapter16 shot 001-000-1. American-market FUTURISTIC SCI-FI 2D GRAPHIC NOVEL, full-bleed 16:9, confident ink outlines, expressive faces with natural human proportions, restrained cel shading, subtle halftone, rich pale-stone/teal/plum/amber palette. NO anime, chibi, photography, 3D, Chinese, subtitles, speech bubbles, sidebars, collage, logos, generated text or digits, watermark, white cutout background or blank black side. Complete scene fills canvas. Keep important faces/actions ABOVE bottom18% English subtitle area.\nREFERENCE ROLES: Image1: ONLY exact Gladias identity/costume: Early-40s male with warm light-brown skin, soft rectangular face, short wavy brown hair graying at temples, kind tired eyes, clean-shaven. Plain dark plum ankle-length loose hooded privacy robe, hood lowered behind neck, face uncovered as in the reference, narrow gray fabric throat band, same purple platform shoes, No hand device unless explicitly required. Face uncovered in private booth and restaurant. Outside and on bus hood UP and opaque full-face cover ON; no exposed face. Hands empty unless specified. Image2: ONLY exact DelwartEmpty identity/costume: Male in his 40s, pale warm skin, long narrow face, high forehead, neat swept ash-brown hair, clean-shaven, restrained plausible smile and calculating eyes. Same revised standard dark-purple ankle-length loose privacy robe with CLEAR soft hood lowered behind neck and GRAY narrow soft throat band, relaxed unstructured shoulders, no standing priest collar. Matching purple platform shoes.  Empty hands unless eating delivered salad or rectangular nutrition bar or drinking delivered WATER. No tea cup; no priest collar.\nCURRENT LOCATION: Meldan private civilian cafe booth, warm wood walls, plum upholstered bench on EACH side of compact wooden table, rigid sliding privacy barrier closed, warm recessed ceiling light. Gladias and Delwart sit OPPOSITE. Both hood DOWN and faces uncovered, loose plum privacy robes, soft grey fabric throat bands; not priests, no standing collars. BEFORE food delivery: bare table, no cup, food, tea or hand device. \nCURRENT ACTION: Wide COMPLETE private booth and rigid sliding barrier, Gladias at entrance, Delwart seated across empty table. Full environment fills both sides; NO text panel, black reserved area or collage.\nCURRENT ORIGINAL NARRATION: Chapter 16\nFraming: WIDE complete booth entrance, no sidebar, full setting fills entire frame. Distinct composition/pose 1 of 2. Depict ONLY current excerpt phase; no montage or later action. Named other person outside crop stays offscreen.\nContinuity: references establish identity/costume/equipment ONLY. Mov is remote neckband audio, never physically here. No physical Lily/Zven/Zei/Bai/Emerald/Pelow, enacted war, political vote, trip to Dzego, fourth signature, vault visit, completed water bottle purchase/delivery. No new extra food or tea. TV game action stays IN television. No subtitle text baked into artwork.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-16-480.webp",
+        "bytes": 11432,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-16-960.webp",
+        "bytes": 38664,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-17",
+    "sourceFile": "snowmoon-episode/public/episode-17/images/001-000-1.png",
+    "sourceSha256": "2b41e257edf168c8228406aa457961a73122b76259d3c10662739635fd3b7db1",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. UNIQUE Chapter17 shot 001-000-1. American-market FUTURISTIC SCI-FI 2D GRAPHIC NOVEL. Full-bleed 16:9, bold clean ink outlines, expressive natural human faces, restrained cel shading, subtle halftone, pale-stone/teal/plum/amber palette. Complete environment fills entire canvas, NO black/blank margins, sidebar, text box, speech bubble, collage, watermark, logo, Chinese, letters or digits. No anime, chibi, photorealism or 3D. Faces/actions above bottom18% English subtitle area.\nREFERENCE ROLES: Image1 is ONLY GladiasCovered identity/costume reference: Gladias outdoors: dark-plum ankle-length privacy robe, hood UP, ENTIRE face covered with opaque charcoal cloth. No visible face, hair or eyes. Grey throat band and purple platform shoes. Costume reference only, not physical Mov.\nCURRENT LOCATION: Meldan, Veridia, daytime, tree-lined walking path approaching a large CIRCULAR civilian parliament building of pale stone and glass. Gladias dark-plum ankle-length privacy robe hood UP, ENTIRE face hidden by opaque charcoal cloth. No visible face, eyes or hair outside. Grey neckband, watch, purple platform shoes. \nCURRENT ACTION: Wide establishing view of tree-lined approach and circular parliament. Full scene fills both sides, no text panel.\nCURRENT ORIGINAL NARRATION: Chapter 17\nFraming: WIDE complete tree-lined approach, covered Gladias, circular parliament fills backdrop. Entire frame is scene, NO reserved text area. Distinct composition/gesture 1 of 1. Depict only CURRENT excerpt phase, no later action or montage. Named other people outside crop stay OFFSCREEN.\nContinuity: no actual Dzego/Northglade trip, skiing, Minpentai match, army, pandemic, hypothetical attack, Delwart visit, proxy voting, meeting with Zei/Bai, visible Lily or bathroom scene. No military hardware, exposed secret keys, tea delivery, election results or extra people. Office robes and family home clothes distinct. No writing/subtitles baked into image.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-17-480.webp",
+        "bytes": 30884,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-17-960.webp",
+        "bytes": 116546,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-18",
+    "sourceFile": "snowmoon-episode/public/episode-18/images/001-000-1.png",
+    "sourceSha256": "578ae187c97ae8549ab2e2b71285496e03ff3d48ef1fc479b892ac2565afd59d",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. UNIQUE Chapter18 corrected shot 001-000-1. American-market FUTURISTIC SCI-FI 2D GRAPHIC NOVEL. Full-bleed16:9. Bold varied black ink outlines, expressive natural faces, restrained cel shading, subtle halftone, stone/teal/plum/amber palette. Complete environment fills ENTIRE canvas. No black margins, blank sidebars, text panels, captions, lettering, logos, watermarks, collage, split panels or Chinese. No anime/chibi, photo or 3D. Natural hands/anatomy; important faces/action above bottom18% English subtitle zone.\nREFERENCE ROLES: Image1: ONLY Gladias identity/costume. Same early-40s Gladias: warm light-brown skin, soft rectangular clean-shaven face, short WAVY BROWN hair grey at temples, kind eyes. Dark-plum loose ankle-length privacy robe, hood DOWN, entire FACE UNCOVERED inside private car, hotel and restaurant. Narrow grey fabric neckband and wristwatch, purple platform shoes. Small plain dark travel bag only on arrival/departing car before hotel room; no luggage on later walk or restaurant visit. No priest collar, armor or weapon.\nONLY SCENE/ACTION: WIDE complete sealed air-harbor transfer corridor, inside enclosed civilian terminal. A large opaque BLACK car docks airtight at an opening. Gladias with small dark bag takes one step from sealed terminal doorway directly into open car door; grey neckband, plum robe hood DOWN face uncovered. NO visible exterior city, runway, rain, skyscrapers or extra people. Scene fills both sides. No text box.\nDo not add characters or props outside this explicit description. No writing baked into image.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-18-480.webp",
+        "bytes": 17164,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-18-960.webp",
+        "bytes": 60708,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-19",
+    "sourceFile": "snowmoon-episode/public/episode-19/images/001-000-1.png",
+    "sourceSha256": "3570447b47fd737a68fa688d9d288f9054c7779c4a332ff8141a5837b97a835d",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Unique Chapter19 shot 001-000-1. American-market FUTURISTIC SCI-FI 2D GRAPHIC NOVEL. Full-bleed16:9 landscape, complete scene fills ENTIRE image. Bold varied black ink outlines, expressive natural faces, restrained CEL SHADING, subtle halftone, stone/teal/plum/amber. No anime/chibi, photography, 3D, split panels, collage, black blank margin, sidebar, captions, lettering, logos, watermark or Chinese. Natural anatomy and hands; important action above lower18%subtitle area.\nREFERENCE ROLES: Image1 is ONLY Gladias identity/costume reference: Same early40sGladias: warm light-brown skin, short WAVY BROWN hair grey at temples, clean-shaven soft rectangular face. Dark-plum loose ankle-length civilian privacy robe, hood DOWN, face fully UNCOVERED throughout indoor chapter. Narrow grey fabric neckband, watch on left wrist, purple platform shoes. No bag, armor, priest collar or weapons. Image2 is ONLY Zei identity/costume reference: Same18year old young East Asian man with thick short straight BLACK hair, uneven diagonal fringe, pine-green boxy technical jacket, cream shirt, charcoal cargo trousers, dark low sneakers with pale soles. Narrow muted teal FABRIC neckband and wristwatch on left wrist. Face visible, no injury, cast or bag.\nCURRENT LOCATION: Inside mountain-pyramid CAFETERIA, thirty meters underground. Pale concrete/stone walls, warm wood trim, muted teal upholstered chairs, walnut square table. TWO LARGE landscape screens attached side-by-side to SAME wall pretend to be windows, displaying bright daytime view DOWN over dense LOW-RISE flat concrete roofs and green trees of Pafogai Du from mountain top. They are physical FLAT displays in solid wall, no real outdoors, glass curtain wall or skyscrapers. Gladias and Zei seated OPPOSITE each other; faces visible and hoods DOWN. Only TWO named humans at table, others outside frame. No luggage.\nCURRENT ACTION: Establish full underground cafeteria spatial layout: Gladias and Zei already seated opposite at table; two large simulated-window displays on wall. NO food, tea, robot or drone yet.\nSOURCE MOMENT: Chapter 19\nPafogai Du, Dzego·3724\nFraming: WIDE complete spatial layout. Distinct pose/composition 1 of 4.\nOnly depict current moment of source. Den NEVER arrives. Bai,Fin,Deluin,parents and Arctic people NEVER physically appear in current library/cafeteria; no invented battle, raid, aircraft, destruction, flashback montage or literal data/AI hologram. Memories and Deluin letter remain words being read/typed inside library. No labels, screens or props beyond current source phase. Keep returning face/costume identities distinct.\nVISIBLE CAST: exactly ['Gladias', 'Zei']. No other named person, clone, merged identity or face reflection. Character-reference pictures determine identity only, never add their original scene. All black display rectangles are IN-WORLD surfaces, never blank margins.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-19-480.webp",
+        "bytes": 19318,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-19-960.webp",
+        "bytes": 66600,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-20",
+    "sourceFile": "snowmoon-episode/public/episode-20/images/001-000-1.png",
+    "sourceSha256": "be5fe8f8152319176dc64281e59f61d1c53df18a2972aadfadaff21e4e32b29f",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Unique Chapter20 shot 001-000-1. American-market FUTURISTIC SCI-FI 2D GRAPHIC NOVEL. Full-bleed 16:9 landscape; complete detailed scene fills ENTIRE image edge to edge. Confident varied BLACK INK outlines, expressive natural faces, restrained two-tone CEL SHADING, subtle halftone. Civilian future technology, muted plum/teal/amber/stone palette. No anime/chibi, photograph, 3D, split panels, collage, side text column, caption box, lettering, watermark or Chinese. Natural anatomy and hands. Important action above lower 18% subtitle safe area.\nREFERENCE ROLES: Image1 is ONLY Seila facial/costume reference: Same late-30s/early-40s woman: medium-deep brown skin, open oval face, dark curly hair in HIGH rounded bun with loose curls. Cream top, charcoal trousers, muted TEAL open knee-length coat, left wristwatch. Natural civilian, no weapon. No reporter bag unless requested; no handheld device unless current action requires it.\nLOCATION: Seila bedroom in family home in Meldan, Veridia: warm plaster walls, oak low bed and cream linen, simple walnut bedside ledge, restrained teal textiles, softly lit morning with recessed light and one ordinary window. Seila in cream long-sleeve top and charcoal trousers, teal coat set aside on chair. High curly bun; watch LEFT wrist, charcoal landscape hand device. No robe, reporter bag, shoes on bed or extra family members.\nCURRENT ACTION: Seila awakens to red flashing wrist alarm, sits up in bed and opens handheld device, growing shocked. Only phase in excerpt. No device held while asleep.\nSOURCE MOMENT: Chapter 20\nMeldan, Veridia·3724 Mistime 10\nSeila\nFRAMING: WIDE ESTABLISHING complete scene and spatial layout; ONLY named person visible; all other companions completely OFFSCREEN, avoid panorama of empty chairs.. Distinct meaningful composition 1 of 3.\nDepict ONLY the CURRENT source moment, never literal flashback. Gladias,Delwart,Zei,Vil,Daia,Febric,Hreda and Ephelion remain mentioned or remote, NEVER appear physically with Seila. No invented rescue, combat, monetary coins burning as fire, tracking map, classroom, surveillance demonstration or military hardware model. Political/technical dialogue stays current room with natural speaker/listener expressions. No generated speech balloons, captions, UI letters or diagrams; important source text composited only into actual physical screens. No bags except explicitly required. Hoods may cover faces only in the stated phase.\nVISIBLE CAST: exactly ['Seila']. No extra named people, clones, merged identities or face reflections. Reference image backgrounds are irrelevant. Keep physical screens dark and oblique unless explicitly making blank-screen insert.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-20-480.webp",
+        "bytes": 13786,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-20-960.webp",
+        "bytes": 44598,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-21",
+    "sourceFile": "snowmoon-episode/public/episode-21/images/001-000-1.png",
+    "sourceSha256": "761bae3227f44a4280ed3d28cfcffe83cdb3bece3f49c835527f6b53c9df5caf",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Unique Chapter21 shot001-000-1. American-market FUTURISTIC SCI-FI 2D GRAPHIC NOVEL. Full-bleed16:9 landscape, entire canvas filled by complete scene. Confident BLACK INK outlines, expressive natural faces, restrained CEL SHADING, subtle halftone. Civilian future technology, warm stone/walnut/teal/amber palette. No anime, chibi, photograph,3D, split panel, collage, sidebar, text box, lettering, watermark or Chinese. Natural anatomy. Keep faces and key action above lower18% subtitle area.\nREFERENCE ROLES: Image1 is ONLY Seila face/costume reference: Same late-30s/early-40s woman, medium-deep brown skin, oval face, dark curly hair in HIGH rounded bun and loose curls, expressive brown eyes. Home costume: cream long-sleeve top, charcoal trousers, dark practical boots, left wristwatch and narrow grey fabric neckband. NO teal coat worn, NO reporter bag, NO privacy robe. Hands empty except exact source action requires hand device, utensil or meal box. Image2 is ONLY Vil face/costume reference: Adult civilian man about forty-two, olive light-brown skin, short dark-brown straight hair, slight stubble, broad calm face. Warm russet overshirt over cream top, charcoal trousers, dark comfortable shoes, wrist terminal. Empty hands. Uncle Vil, ordinary co-family caregiver, not Gladias. Image3 is ONLY Daia face/costume reference: Adult civilian woman around forty, warm medium-brown skin, long dark tightly curled hair gathered in a low ponytail, round thoughtful face. Muted mustard-ochre cardigan over pale sage top, charcoal trousers, practical brown ankle shoes, wrist terminal. Ordinary co-family caregiver; empty hands. Image4 is ONLY Lily face/costume reference: Young teenage girl about fourteen, medium-brown skin, oval youthful face, shoulder-length loose black curls, brown eyes. Plain sage-green sweater, charcoal trousers and practical dark shoes. Same returning daughter as Image1 scene at RIGHT, not her mother. Hands empty; no injury. Image5 is ONLY Zven face/costume reference: Boy age eleven, warm medium-brown skin, short wavy dark-brown hair, expressive round youthful face, small lean child build and natural child proportions. Plain YELLOW short-sleeve sports shirt, charcoal knee-length sports shorts, dark soft athletic shoes. No helmet, glasses, armor, robe or markings. Empty hands; not an adult.\nLOCATION: Seila family home dining room in Meldan, Veridia, early evening. Warm cream plaster walls, oak acoustic slat wall, plain rectangular walnut dining table and five muted teal upholstered dining chairs; cream wall lamp, walnut book ledge and small plant, teal coat hanging on wall hook. Single ordinary window with dusk outside; interior warmly illuminated. Only the people listed in VISIBLE CAST appear. Other family diners remain offscreen. No Gladias or other relatives. NO food, meal boxes, delivery bags or plates before robot delivery. Empty clear table before delivery, no tea service.\nCURRENT ACTION: Family seated waiting for delivered dinner, empty table. Seila worried for absent Febric/Hreda; Vil explains his lawsuit with restrained weary gestures. Others listen. No actual court or refugees. No food yet.\nCURRENT SOURCE: Chapter 21\nMeldan, Veridia·3724 Mistime 20\nFRAMING: WIDE complete dining-room establishing view, EXACTLY five seated diners, each shown once. Composition1 of2: distinct meaningful camera angle, gesture or reaction.\nDepict ONLY the current source moment, never a literal flashback or imagined action. Delwart,Mov,Ephelion,Febric,Hreda,Telroy,Balme,Lectoby and teachers remain mentioned, NEVER physically present. Gladias voice is remote throughout; keep camera with Seila. Do not illustrate court cases, rocket launch, moon trip, classrooms, surveillance equipment, armies, propaganda rally or past Keeper meetings. No written evidence scoreboard, labels, invented words, speech balloons or captions; exact source words appear only as separately composed English subtitles. Character reference backgrounds and props are irrelevant. No bags on Seila, no handheld phones against ears, no earbuds unless already established. Nobody cries, hugs or storms out unless the current source says so.\nVISIBLE CAST: exactly['Seila', 'Vil', 'Daia', 'Lily', 'Zven']; each visible person occurs ONCE, all other family members offscreen. Keep physical screens dark and angled away, no generated words. Match costume phase to current scene.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-21-480.webp",
+        "bytes": 16108,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-21-960.webp",
+        "bytes": 50816,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-22",
+    "sourceFile": "snowmoon-episode/public/episode-22/images/001-000-1.png",
+    "sourceSha256": "5030eac2243e646cc26b673493d69ed6b3e196ee5c461b1fc257c2af37b0da58",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Unique Chapter22 shot001-000-1. American-market FUTURISTIC SCI-FI 2D GRAPHIC NOVEL, confident varied black ink outlines, natural expressive faces, restrained two-tone cel shading, subtle halftone. Full-bleed16:9 landscape; detailed complete scene covers entire frame. Grounded civilian future, warm stone/ochre/teal/steel palette. No anime, chibi, photo,3D, collage, text sidebar, blank black margin, comic frame, speech balloon, Chinese, lettering, logos or watermark. Keep faces and key actions above bottom18% subtitle zone. Exactly two arms and two hands per person; no floating objects.\nREFERENCE: Image1 gives ONLY Jahn identity/costume: Adult local man in his early forties, warm tan skin, broad oval face, short dark-brown hair, neat short beard, friendly observant eyes. Muted ochre civilian overshirt over slate-gray T-shirt, dark navy trousers, brown practical shoes, wrist terminal. No privacy robe, no armor.\nLOCATION: Freetown, United Cities, daylight. Eclectic dense civilian city: glass-and-steel, concrete and stone buildings of mixed height and age, elevated roadways, modest westbound road traffic and fewer pedestrians than usual. Worn practical architecture beside modern structures, believable street scale, road construction toward northern shelters. No actual attack, soldiers, destroyed city, rocket or dystopian neon. Inside same compact four-door civilian taxi: left-hand drive, dark slate front seats and light grey rear bench, teal-grey door trim, steering wheel front LEFT. Driver deep-brown-skinned man50, short grey-black curls, teal jacket over light-grey shirt, front left seat facing road. Jahn tan man40, short brown hair and neat short beard, ochre overshirt/slate T-shirt, right REAR passenger seat, behind front passenger seat. Jahn seatbelt on; driver stays front, never seated beside Jahn in back. No other passengers. Small closed charcoal hand device on Jahn lap until fare buzzes. No food, computer, weapons or robes.\nCURRENT ACTION: Wide present-day Freetown street seen THROUGH taxi rear side window; Jahn seated in right rear foreground watching mixed buildings. No title box.\nCURRENT SOURCE: Chapter 22\nFRAMING: Wide inside taxi rear seat looking toward mixed Freetown city, Jahn on left third, full scene across canvas. Shot1 of2, use a distinct meaningful camera view and gesture.\nDepict only the current source moment. Do not turn mentioned shelter construction, history, migration, genetics, old wars, defense companies, covert audio encoding or proposed drone kidnapping into literal flashbacks or executed events. Drone operation is viewed as original tactical schematic files on Jahn LAPTOP, not a real battle around Jahn. No live video of Zei, no invented military map or numbers. No new dialogue, charts, fees, evidence or labels. Character reference background is irrelevant. Avoid gesturing with both hands while holding an object: one simple gesture maximum, other hand on desk or holding stated device.\nVISIBLE NAMED CAST exactly['Jahn'], every person once; all others offscreen. Hands and objects obey current action. No generated words; exact source text/diagrams composited separately only on specified physical display.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-22-480.webp",
+        "bytes": 15702,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-22-960.webp",
+        "bytes": 49514,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-23",
+    "sourceFile": "snowmoon-episode/public/episode-23/images/001-000-1.png",
+    "sourceSha256": "4707d0253071097fb1b30c13df05158bd51d61bbfe0945195c7b47a6ee5554ce",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Unique Chapter23 shot 001-000-1. American futuristic science-fiction 2D graphic novel. Confident varied black ink, expressive natural faces, restrained cel shading, subtle halftone, detailed full-bleed 16:9 landscape illustration. Grounded civilian future, warm stone, foliage green, plum and muted steel palette. Complete scene fills ALL edges. No photorealism, 3D render, chibi, manga, collage, comic border, speech balloon, text sidebar, letters, logos, Chinese, watermark or black side margins. Preserve bottom18 percent for later subtitles. Natural anatomy, exactly two arms/two hands per visible person.\nREFERENCE: Image1 supplies ONLY Gladias face/style: Same early40sGladias: warm light-brown skin, short WAVY BROWN hair grey at temples, clean-shaven soft rectangular face. Dark-plum loose ankle-length civilian privacy robe, hood DOWN, face fully UNCOVERED throughout indoor chapter. Narrow grey fabric neckband, watch on left wrist, purple platform shoes. No bag, armor, priest collar or weapons. Image2 supplies ONLY Bai face/style: Young woman18-20, warm olive-tan skin, diamond face, black short low ponytail and two face strands. Rust-amber short structured jacket over plain purple shirt, charcoal trousers, black ankle boots, small black crossbody bag, narrow muted teal fabric neckband, watch. Hands empty except ordinary food utensils during meal; no handheld device or weapon. Image3 supplies ONLY Fin face/style: Young adult man18-20, deep brown skin, short tight BLACK CURLS, rounded warm clean-shaven face, broad smile. Slate-blue hooded overshirt over cream shirt, charcoal cargo trousers, slate sneakers, narrow teal fabric neckband and watch. Backpack may rest beside chair, Book and bag only from the book handover onward; no laptop or map. Neckband visible; hood down, face uncovered.\nLOCATION: Deep underground inside Pafogai Du mountain pyramid, Dzego. Enclosed futuristic cafeteria, no outdoor view or sunlight window. Pale warm limestone ceiling and floor, four walls, two vine-covered walls and two large mirrors angled to reflect PLANTS, never duplicate people. Green small trees along perimeter. Single corner entrance tunnel screened by two thick shrubs. Plain portable air-filter towers recently set on floor, overhead DOWNWARD fans and subtle violet ceiling fixtures. Private alcove behind dense waist-high shrubs, two small unlettered speakers on opposite sides, quiet warm ambient light. Same plain round walnut table and muted teal upholstered chairs.\nCURRENT ACTION: Gladias, Bai and Fin sit together in private shrub alcove, empty tabletop. Three people exactly; fourth chair EMPTY. Establish the enclosed underground garden cafeteria, full scene. Zei has not arrived. No title box or inset.\nFRAMING: WIDE complete scene, exactly listed distinct people once each around single table, no extra bodies or mirror duplicates. Distinct purposeful shot 1 of 2; vary camera, gaze and foreground naturally, preserving location.\nOnly depict the present conversation or specified simple action. Topics discussed, historical cases and reported events are not shown literally. No battlefield, courtroom, political poster, diagram, propaganda, tracking map, missing child, bus, confrontation flashback or screen presentation. No new event or invented readable writing. Reference images give ONLY face, clothes and style; omit their labels, ivory background and default props. Focus on one clearly stated pose. Do not add a device just because characters discuss technology.\nVISIBLE CAST: ['Gladias', 'Bai', 'Fin']; each exactly once. Background companions outside crop. No generated readable writing.\nCONTINUITY: Gladias ALWAYS wears DARK PLUM outer robe over grey shirt in cafeteria. Do not remove outer robe or recolor it grey. Hood DOWN, clean-shaven face clear.\nCOSTUME CORRECTION: Gladias on left MUST have the dark PURPLE/PLUM long outer robe of his identity reference, clearly visible on shoulders and sleeves. His grey shirt is visible only inside the open robe. Maintain current source moment, all other identity references, full detailed cafeteria background, no readable writing.\nFinal Image4 is LOCATION/COSTUME reference only, ignore its empty table when current action includes food/book.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-23-480.webp",
+        "bytes": 16320,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-23-960.webp",
+        "bytes": 56588,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-24",
+    "sourceFile": "snowmoon-episode/public/episode-24/images/001-000-1.png",
+    "sourceSha256": "b872b213799b33b10ddbaef2d220e2adcf7f9efc2613bc671a9febc6867ce08b",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Unique Chapter24 shot 001-000-1. American futuristic science-fiction 2D graphic novel. Varied confident black ink, expressive natural adult faces, restrained cel shading and subtle halftone texture, full-bleed 16:9 landscape illustration. Muted plum, amber, stone and sage colors, grounded civilian future. Complete detailed scene fills every edge. No photorealism, 3D, manga, chibi, collage, comic border, speech balloon, text sidebar, logos, Chinese, watermark or black margins. Keep important action above bottom18 percent subtitle zone. Exactly two arms per person, natural hands.\nREFERENCE: Image1 supplies ONLY GladiasHome face/costume: Same Gladias: early40s, warm light-brown skin, short WAVY BROWN hair grey at temples, clean-shaven soft rectangular face, tired kind eyes. Grey loose long-sleeve sleep shirt, charcoal trousers, narrow grey fabric neckband and watch on LEFT wrist. No robe, hood or mask in bedroom.\nLOCATION: Same private underground guest bedroom as preceding chapter: pale warm stone walls, walnut headboard, grey duvet and pillows, one amber bedside reading lamp, enclosed room without exterior windows. Gladias alone, grey loose sleep shirt, no plum robe or shoes on bed; grey fabric neckband and LEFT wristwatch. Exhausted after sleepless night. Zven is REMOTE AUDIO ONLY, no physical boy, hologram or video avatar.\nCURRENT ACTION: Gladias alone upright against pillows in grey sleep shirt, tired empty gaze, hands resting on duvet. Full bedroom scene, no title box or inset.\nFRAMING: MEDIUM eye-level three-quarter portrait with natural small gesture. Distinct purposeful camera 1 of 2, vary gaze, angle and foreground while preserving setting.\nDepict only the current specified conversation/action. Past family events, childhood explosion, competitions, political corruption, surveillance, camera backdoors, war and proposed factory tours remain spoken topics, never enacted or literal flashbacks. No child, family rescue, spy operation, hacking interface, camera cutaway, diagrams, charts, army, battle or outside visit. Reference portraits provide only face/costume/style, never their labels, ivory background or default props. Each listed person appears once, others outside crop. No invented readable writing.\nVISIBLE CAST: ['GladiasHome']; listed cast only, everyone else outside crop. No generated readable text.\nImage2 is ONLY the reviewed BEDROOM environment/costume continuity reference: same bed, walnut, grey bedding and amber lamp, not extra people or gesture.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-24-480.webp",
+        "bytes": 9702,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-24-960.webp",
+        "bytes": 31492,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-25",
+    "sourceFile": "snowmoon-episode/public/episode-25/images/001-000-1.png",
+    "sourceSha256": "3f600a651b645ccdb72db3dd83d1d83be52ffb7260155116dc72a44bbe0d8e15",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Unique Chapter25 physical game-screen shot 001-000-1. American futuristic science-fiction 2D graphic novel, confident varied black ink, expressive natural faces, restrained cel shading, subtle halftone. Muted plum, stone, amber and pine green, grounded civilian future. Full-bleed detailed 16:9 landscape scene fills every edge. No photorealism, 3D, manga, chibi, panel border, text sidebar, speech balloon, black margins, Chinese, watermark or logos. Natural hands, exactly two arms each. Important action above bottom18percent subtitle zone.\nENVIRONMENT ONLY, ABSOLUTELY ZERO PEOPLE, ZERO HUMAN HEADS, ZERO HANDS, ZERO ARMS, ZERO FIGURES. Empty enclosed pale limestone study with recessed amber-white light strips and two unoccupied charcoal chairs pushed away from the table. One broad rectangular dark-framed flat touchscreen TABLE, normal low table legs, near overhead three-quarter view, entire four-corner tabletop inside frame with generous stone-room margin. Its active display is entirely uniform matte BLACK, clean unobstructed rectangle, all four straight inner screen corners visible. No generated circles, text, digits, UI, labels or reflection of people. A game-board diagram will be inserted later. Camera 001-000-1, purposefully unique framing. Warm subdued civilian science fiction 2D American comic illustration. Full complete environment fills16:9, no black outside-scene area, no white background or side panel. This is a physical prop insert only; no players or characters visible anywhere.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-25-480.webp",
+        "bytes": 14976,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-25-960.webp",
+        "bytes": 52346,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-26",
+    "sourceFile": "snowmoon-episode/public/episode-26/images/001-000-1.png",
+    "sourceSha256": "b7236b2102345b7e961636fdaf9b297338e9ba08527a6b208497c88ff2119e9d",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Unique Chapter26 shot 001-000-1. American futuristic science-fiction2D graphic novel. Expressive natural adult faces, confident varied black ink, restrained cel shading, subtle halftone, cinematic muted plum, amber, sage and slate. Full-bleed16:9 landscape, complete detailed environment fills every edge. No photorealism,3D, manga, chibi, collage, panels, speech balloons, text sidebars, Chinese, logos, watermark, black margins or generated readable writing. Important action above bottom18percent subtitle zone. Natural anatomy and hands.\nREFERENCE: Image1 supplies ONLY Zei: 18-year-old lean male, warm light-medium skin, youthful angular face, thick black straight hair with uneven diagonal fringe, focused dark eyes. Same pine-green lightweight boxy technical jacket, cream shirt, charcoal cargo trousers, dark low-top sneakers with pale soles, wrist terminal. Narrow muted teal fabric neckband, watch. Both hands empty unless specified. Healthy arms, no cast, no injuries. Image2 supplies ONLY Bai: Young woman18-20, warm olive-tan skin, diamond face, black short low ponytail and two face strands. Rust-amber short structured jacket over plain purple shirt, charcoal trousers, black ankle boots, small black crossbody bag, narrow muted teal fabric neckband, watch.  Hands empty in this chapter; no cup, food, weapon or handheld device. Image3 supplies ONLY Gladias: Same early40sGladias: warm light-brown skin, short WAVY BROWN hair grey at temples, clean-shaven soft rectangular face. Dark-plum loose ankle-length civilian privacy robe, hood DOWN, face fully UNCOVERED throughout indoor chapter. Narrow grey fabric neckband, watch on left wrist, purple platform shoes. No bag, armor, priest collar or weapons. Image4 supplies ONLY Den: Mature male in his 50s, medium-dark brown skin, broad solid square face, closely cropped salt-and-pepper hair and short gray beard, steady calm unsentimental gaze. Same charcoal-plum priest cloak with broad ANGULAR shoulder fold and restrained standing collar, hood lowered, layered tunic, charcoal trousers, plain boots. Broad build and hands together in front as reference. Cloak DISTINCT from loose privacy robes, no magical staff or crown. SAME visible face and short beard throughout; no mask or hood over face. No weapon, magic, medal or armor. Hand device put away until packaging-room diagram.\nCURRENT SCENE AND ACTION: Small private four-seat passenger compartment in a civilian aeroplane, warm ivory curved interior, charcoal cushioned seats and large oval side window; two paired rows face each other, forward row and backward row. Soft natural daylight. No spaceship, military equipment, restaurant, table screens or strangers. Exactly FOUR people seated: Zei and Bai in forward-facing paired seats, Gladias and Den in backward-facing pair opposite. They silently look through oval window at green landscape. Each full head visible, no foreground strangers. Cabin orientation and opposite paired seats clearly readable.\nCAMERA: MEDIUM-WIDE contextual shot, exactly listed full heads once each, correct seated/standing posture and room depth; no unlisted figure. Distinct camera 1 of 4.\nVISIBLE CAST: ['Zei', 'Bai', 'Gladias', 'Den']. Exactly listed people once each; all others offscreen. When zero listed, no human faces or reflections. Match each referenced face and costume, never reference labels, props or background. Scene-specific current action only; no additional story event, dialogue text or screen interface. Complete16:9 environment.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-26-480.webp",
+        "bytes": 15668,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-26-960.webp",
+        "bytes": 49256,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-27",
+    "sourceFile": "snowmoon-episode/public/episode-27/images/001-000-1.png",
+    "sourceSha256": "85dd11d5bcc8451259c9253c478d64f524be52e4869db3b852e0c71427f7d997",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Unique Chapter27 shot 001-000-1. American futuristic science-fiction 2D graphic novel, varied black ink, natural expressive adult faces, restrained cel shading, subtle halftone, muted plum, sage, amber and slate. Full-bleed16:9 complete detailed environment to every edge. Natural anatomy and hands. Important action above bottom18percent subtitle zone. No text sidebar, panels, speech balloons, Chinese, logos, watermark or black margins. No generated readable writing.\nREFERENCE: Image1 supplies ONLY Gladias: Same early40sGladias: warm light-brown skin, short WAVY BROWN hair grey at temples, clean-shaven soft rectangular face. Dark-plum loose ankle-length civilian privacy robe, hood DOWN, face fully UNCOVERED throughout indoor chapter. Narrow grey fabric neckband, watch on left wrist, purple platform shoes. No bag, armor, priest collar or weapons.\nCURRENT LOCATION: Same quiet private government-hotel room in Meldan: warm pale-stone walls, soft amber daylight, slate upholstered chairs, simple walnut furniture, plain automatic door. A domestic-scale private conversation, no meeting delegates or wall presentation.\nCURRENT ACTION: Gladias alone, seated quietly in three-quarter view, sad and exhausted, looking toward the automatic door as it begins to open. No Seila visible yet.\nCAMERA: MEDIUM eye-level three-quarter portrait; distinct camera 1 of 1. Exactly visible cast: ['Gladias']. Match referenced identities and costumes only, never copy reference labels or backgrounds. All unlisted people outside crop. Current action only, no additional story event. Exactly ONE visible person, no other foreground back, head, reflection or extra limb.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-27-480.webp",
+        "bytes": 11782,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-27-960.webp",
+        "bytes": 38052,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-28",
+    "sourceFile": "snowmoon-episode/public/episode-28/images/001-000-1.png",
+    "sourceSha256": "4940d219aa0e43e6db7ffe107b02b259bbd0ae18a931d033b6c2454d03547522",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Unique Chapter28 shot 001-000-1. American futuristic science-fiction 2D GRAPHIC NOVEL. Confident visible BLACK INK contours on faces AND environment, restrained flat CEL SHADING, subtle halftone, expressive natural anatomy, muted plum, sage, amber and slate. Full-bleed16:9 scene fills every edge. No photography, photoreal rendering, 3D, manga, chibi, collage, speech balloons, sidebar, Chinese, labels, generated readable writing, logo, watermark or black margin. Keep important faces and action above bottom18percent subtitle zone.\nIDENTITY REFERENCES: Image1 supplies ONLY Zei identity and costume: 18-year-old lean male, warm light-medium skin, youthful angular face, thick black straight hair with uneven diagonal fringe, focused dark eyes. Same pine-green lightweight boxy technical jacket, cream shirt, charcoal cargo trousers, dark low-top sneakers with pale soles, wrist terminal. Narrow muted teal fabric neckband, watch. Both hands empty unless specified. Healthy arms, no cast, no injuries. Normal pine-green jacket only, no privacy robe, mask, headset or display glasses. Image2 supplies ONLY Den identity and costume: Mature male in his 50s, medium-dark brown skin, broad solid square face, closely cropped salt-and-pepper hair and short gray beard, steady calm unsentimental gaze. Same charcoal-plum priest cloak with broad ANGULAR shoulder fold and restrained standing collar, hood lowered, layered tunic, charcoal trousers, plain boots. Broad build and hands together in front as reference. Cloak DISTINCT from loose privacy robes, no magical staff or crown. SAME visible face and short beard throughout; no mask or hood over face. No weapon, magic, medal or armor. Hand device put away until packaging-room diagram. Image3 supplies ONLY Bai identity and costume: Young woman18-20, warm olive-tan skin, diamond face, black short low ponytail and two face strands. Rust-amber short structured jacket over plain purple shirt, charcoal trousers, black ankle boots, small black crossbody bag, narrow muted teal fabric neckband, watch.  Hands empty unless current action specifies otherwise. Image4 supplies ONLY Mu identity and costume: 40-50-year-old female mentor with light-medium warm skin, defined cheekbones, perceptive dark eyes, black chin-length bob and broad graying streak on one side, calm faint smile. Same tailored long slate-plum civilian coat over practical charcoal layers and trousers, black boots, Empty hands except for the water glass or prize bags when required. Relaxed upright economical posture, no armor.\nLOCATION: Quiet enclosed civilian conference room in Meldan, same warm pale-stone paneled walls, walnut oval table with simple continuous solid top, slate upholstered individual chairs, plain automatic door, soft amber daytime light and a discreet window with future-city silhouettes. No projection screen, map, audience, courtroom, weapon, flags, tea, food or robot. Everyone is indoors with faces uncovered. Zei wears normal pine-green jacket without privacy robe, mask, headset or glasses. A diplomatic conversation, not a military command bunker.\nCURRENT ACTION: Opening quiet conversation. Exactly FOUR people seated around walnut table: Zei, Den, Bai and Mu. Four complete separate heads, one body per person, empty hands, attentive expressions. Door closed, Verdow and Lektor NOT present yet.\nCAMERA: WIDE eye-level view with each full head and natural body visible. This is new composition 1 of 1; obey this camera scale and angle, not the reference pose. Exactly visible people: ['Zei', 'Den', 'Bai', 'Mu']. All others are outside crop. No extra head, reflection, body, limb or added story event.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-28-480.webp",
+        "bytes": 15108,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-28-960.webp",
+        "bytes": 51270,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-29",
+    "sourceFile": "snowmoon-episode/public/episode-29/images/001-000-1.png",
+    "sourceSha256": "564878fe5d73d0c2663decc868cfe7f119d8ba811978219c8e7305fc49345fef",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Unique Chapter29 shot 001-000-1. American futuristic science-fiction 2D GRAPHIC NOVEL. Visible confident BLACK INK on faces AND architecture, restrained flat CEL shading, subtle halftone, expressive natural anatomy, muted slate, cool snow blue, sage, amber. Full-bleed16:9 scene fills every edge. No photography, photorealism,3D,manga,chibi,collage,side panels,Chinese,speech balloons,caption boxes,readable generated writing,logo,watermark,black margin. Keep action above bottom18percent subtitle zone.\nIDENTITY: Image1 supplies ONLY Zei identity/costume: 18-year-old lean male, warm light-medium skin, youthful angular face, thick black straight hair with uneven diagonal fringe, focused dark eyes.  Winter field clothing: thick white-and-grey patterned insulated jacket, hood DOWN with full familiar face and hair visible, grey snow trousers, dark winter boots, gloves and wrist terminal; narrow fabric neckband. Indoors keep jacket unzipped, no snowshoes indoors. No armor or weapon. NO display glasses outdoors. Image2 supplies ONLY Mu identity/costume: 40-50-year-old female mentor with light-medium warm skin, defined cheekbones, perceptive dark eyes, black chin-length bob and broad graying streak on one side, calm faint smile.  Winter field clothing: thick white-and-grey patterned insulated jacket, hood DOWN with full familiar face and hair visible, grey snow trousers, dark winter boots, gloves and wrist terminal; narrow fabric neckband. Indoors keep jacket unzipped, no snowshoes indoors. No armor or weapon.\nLOCATION: Elenar Forest winter hilltop, endless tall green pine trees heavily covered in thick white snow, wind-blown loose snow, low newly risen golden sun EAST beyond the trees in front of the group. Cold blue-white dawn. Everyone wears white-and-grey insulated jackets, hoods DOWN, grey snow trousers, gloves, winter boots and flat broad snowshoes when feet visible. NO drones deployed yet, no weapons in human hands, no bare skin except faces, no tropical landscape.\nCURRENT ACTION: Zei and Mu standing side by side, calmly looking east over snow-covered pines, natural empty hands, no Bai yet.\nCAMERA: WIDE three-quarter view, complete separate heads and natural body count. Draw a NEW composition 1 of 2; follow requested scale, never duplicate reference pose. Exactly named visible people: ['Zei', 'Mu']; all others outside crop except stated briefing audience or unnamed rear operators. No extra body, head, limb, reflection or added story event. ABSOLUTELY NO CHARACTER NAME LABELS, captions, written names or words anywhere in artwork.",
+    "outputs": [
+      {
+        "file": "public/assets/ep-29-480.webp",
+        "bytes": 21712,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-29-960.webp",
+        "bytes": 67196,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-30",
+    "sourceFile": "snowmoon-episode/public/episode-30/images/001-000-1.png",
+    "sourceSha256": "125253a663b81bb7640a6006e3ca7cf2e33adb2a4455f45cfd67fce0d8a036f2",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Unique Chapter30 shot 001-000-1. American futuristic science-fiction 2D GRAPHIC NOVEL, confident black INK on faces and architecture, flat CEL shading, restrained halftone, expressive natural anatomy. Full-bleed16:9 landscape scene fills EVERY edge. No photorealism,3D,manga,chibi,collage,Chinese,sidebars,speech balloons,caption boxes,watermarks,logos,black borders. Keep important action above bottom18percent subtitle zone. No readable writing except explicitly requested exact English word.\nIDENTITY: Image1 supplies ONLY Zei face/hair identity: 18-year-old lean male, warm light-medium skin, youthful angular face, thick black straight hair with uneven diagonal fringe, focused dark eyes.  Winter field clothing: thick white-and-grey patterned insulated jacket, hood DOWN with full familiar face and hair visible, grey snow trousers, dark winter boots, gloves and wrist terminal; narrow fabric neckband. Indoors keep jacket unzipped, no snowshoes indoors. No armor or weapon. In the night command room only, slim transparent display glasses and neckband microphone, without bulky helmet.\nLOCATION: Zei own small insulated bunker command room, grey ribs, warm overhead strip light, cool blue physical desk monitor, single chair. Zei in white-grey winter jacket unzipped, grey trousers, slim transparent display glasses and neckband microphone, wrist terminal. Mu and Bai are in SEPARATE rooms, Emerald has no physical body. No snowshoes indoors. Half-finished plain energy-drink can on desk.\nCURRENT ACTION: Zei studies the ongoing battle feed, weary but focused. Night retreat is holding. No victory yet.\nVisible named people: ['Zei']. Other named participants outside crop. CAMERA: MEDIUM three-quarter eye-level head and torso. New independent composition 1/5, change framing and viewing angle, never duplicate reference pose. All referenced people must have requested LOCATION costume, character references supply identity. No extra head, body, limb, story event or literalization of metaphors.\nSPOKEN CONTEXT (for expressions only, do not print): Chapter 30\nElenar Forest, Veridia·3725",
+    "outputs": [
+      {
+        "file": "public/assets/ep-30-480.webp",
+        "bytes": 21286,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-30-960.webp",
+        "bytes": 65240,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-31",
+    "sourceFile": "snowmoon-episode/public/episode-31/images/001-000-1.png",
+    "sourceSha256": "449d1200c7bbf0cd056d5bd376f8e455349bca8f2c8e8c3ed5b2d7bcb88851d2",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Unique Chapter31 shot 001-000-1. American futuristic science-fiction 2D GRAPHIC NOVEL, confident black INK on faces and architecture, flat CEL shading, restrained halftone, expressive natural anatomy. Full-bleed16:9 landscape scene fills EVERY edge. No photorealism,3D,manga,chibi,collage,Chinese,sidebars,speech balloons,caption boxes,watermarks,logos,black borders. Keep important action above bottom18percent subtitle zone. No readable writing except explicitly requested exact English word.\nIDENTITY: Image1 supplies ONLY Zei face/hair identity: 18-year-old lean male, warm light-medium skin, youthful angular face, thick black straight hair with uneven diagonal fringe, focused dark eyes.  Winter field clothing: thick white-and-grey patterned insulated jacket, hood DOWN with full familiar face and hair visible, grey snow trousers, dark winter boots, gloves and wrist terminal; narrow fabric neckband. Indoors keep jacket unzipped, no snowshoes indoors. No armor or weapon. In the night command room only, slim transparent display glasses and neckband microphone, without bulky helmet. Image2 supplies ONLY Bai face/hair identity: Young woman18-20, warm olive-tan skin, diamond face, black short low ponytail and two face strands.  Winter field clothing: thick white-and-grey patterned insulated jacket, hood DOWN with full familiar face and hair visible, grey snow trousers, dark winter boots, gloves and wrist terminal; narrow fabric neckband. Indoors keep jacket unzipped, no snowshoes indoors. No armor or weapon. Image3 supplies ONLY Mu face/hair identity: 40-50-year-old female mentor with light-medium warm skin, defined cheekbones, perceptive dark eyes, black chin-length bob and broad graying streak on one side, calm faint smile.  Winter field clothing: thick white-and-grey patterned insulated jacket, hood DOWN with full familiar face and hair visible, grey snow trousers, dark winter boots, gloves and wrist terminal; narrow fabric neckband. Indoors keep jacket unzipped, no snowshoes indoors. No armor or weapon.\nLOCATION: Northglade snowy mountaintop circular lookout platform, safe handrails, deep snow and pine trees, bright cold daylight, wide snowy island city EAST below, snowy hills WEST and NORTH, snowflakes. All familiar faces uncovered. Zei, Bai and Mu in white-grey insulated winter jackets, hood DOWN. Deluin wears only a simple sweater with a LIGHT hood, no heavy coat or armor.\nCURRENT ACTION: Zei, Bai and Mu ascending salted snowy staircase with handrails. Small plowing drone thirty meters ahead. No Deluin with group yet.\nVisible named people: ['Zei', 'Bai', 'Mu']. Other named participants outside crop. CAMERA: WIDE clear separate complete figures. New independent composition 1/5, change framing and viewing angle, never duplicate reference pose. All referenced people must have requested LOCATION costume, character references supply identity. No extra head, body, limb, story event or literalization of metaphors.\nSPOKEN CONTEXT (for expressions only, do not print): Chapter 31\nNorthglade, Veridia·3725",
+    "outputs": [
+      {
+        "file": "public/assets/ep-31-480.webp",
+        "bytes": 37324,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-31-960.webp",
+        "bytes": 126332,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "ep-32",
+    "sourceFile": "snowmoon-episode/public/episode-32/images/001-000-1.png",
+    "sourceSha256": "b166f0ab08cbbaf0903fa2343bf41c463170710dfde0261262db8ce12599fc5a",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: illustration-story. Unique Chapter32 shot 001-000-1. American futuristic science-fiction 2D GRAPHIC NOVEL, confident black INK on faces and architecture, flat CEL shading, restrained halftone, expressive natural anatomy. Full-bleed16:9 landscape scene fills EVERY edge. No photorealism,3D,manga,chibi,collage,Chinese,sidebars,speech balloons,caption boxes,watermarks,logos,black borders. Keep important action above bottom18percent subtitle zone. No readable writing except explicitly requested exact English word.\nIDENTITY: Image1 supplies ONLY Gladias face/hair identity: Same early40sGladias: warm light-brown skin, short WAVY BROWN hair grey at temples, clean-shaven soft rectangular face. Dark-plum loose ankle-length civilian privacy robe, hood DOWN, face fully UNCOVERED throughout indoor chapter. Narrow grey fabric neckband, watch on left wrist, purple platform shoes. No bag, armor, priest collar or weapons. Image2 supplies ONLY Seila face/hair identity: Woman early40s, medium-deep brown skin, dark curly hair in high rounded bun and loose curls, expressive brown eyes. Same long dark plum public privacy robe open over cream shirt, charcoal trousers, black boots, grey fabric neckband and left watch. Hood down, face visible, no reporter bag or weapons.\nLOCATION: Meldan Kalimar leafy pedestrian path, warm temperate daylight, tall green trees, scattered leaves cover path, futuristic civilian city.\nCURRENT ACTION: Gladias and Seila walking together peacefully, same public civilian privacy robes hood DOWN, no winter snow.\nVisible named people: ['Gladias', 'Seila']. Other named participants outside crop. CAMERA: WIDE clear separate complete figures. New independent composition 1/3, change framing and viewing angle, never duplicate reference pose. All referenced people must have requested LOCATION costume, character references supply identity. No extra head, body, limb, story event or literalization of metaphors.\nSPOKEN CONTEXT (for expressions only, do not print): Chapter 32\nMeldan, Veridia·3725",
+    "outputs": [
+      {
+        "file": "public/assets/ep-32-480.webp",
+        "bytes": 30792,
+        "width": 480,
+        "height": 270
+      },
+      {
+        "file": "public/assets/ep-32-960.webp",
+        "bytes": 103522,
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "gladias",
+    "sourceFile": "concept-art/characters/01-gladias.png",
+    "sourceSha256": "1c08cdc8b673044c6dfa84262ed6b8ba4ce0ca2a708b1191f32ffbb6a7da00aa",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: identity-preserve. Asset type: INDIVIDUAL full-body character concept art for SNOWMOON, futuristic American-market 2D graphic novel.\nInput image 1: EDIT TARGET and identity/costume/style reference, an existing FOUR-person character design sheet. Isolate and recompose ONLY the FIRST (leftmost) column character, labeled \"GLADIAS\". Preserve that selected character's exact facial identity, hairstyle, skin tone, age, body build, posture, costume cut, colors, footwear and held items. The selected full-body figure is the primary reference; close-up portrait is supporting face reference only.\nSubject: Early-40s male with warm light-brown skin, soft rectangular face, short wavy brown hair graying at temples, kind tired eyes, clean-shaven. Plain dark plum ankle-length loose hooded privacy robe, hood lowered behind neck, face uncovered as in the reference, narrow gray fabric throat band, same purple platform shoes, charcoal hand terminal held in both hands at waist.\nPrimary request: Create ONE new tall portrait-format image showing ONLY this ONE person ONCE, in a single large head-to-toe standing three-quarter figure. Remove the other three characters completely. Remove ALL duplicate head portraits, color swatches, divider lines, panels and sheet header. Do NOT create a contact sheet, lineup, turnaround, collage, inset head, multiple poses or duplicate person.\nComposition: centered full figure filling roughly 82% of image height, natural roughly 7.5-head human proportions, generous narrow side margins, visible complete hair/head and BOTH complete shoes with comfortable space above and below. Full garment hem visible. Blank warm ivory paper background with very faint texture and a small soft ground shadow only. No scene, no extra props. Portrait canvas roughly 2:3, requested 1024x1536.\nStyle: EXACT same original 2D Western graphic novel artwork as reference: confident varied black ink lines, clearly drawn folds, large solid black shadows, clean two-tone cel shading, restrained halftone. Not photo, not 3D render, not anime/chibi, no superhero transformation. Keep original restrained palette.\nText: only a small neat dark name caption \"GLADIAS\" centered BELOW the feet, no other text. Keep portrait identity faithful, do not beautify/recast/re-age. No personal emblems on privacy robes. No new weapon, armor, glowing cyber implants, scenery or extra people.",
+    "outputs": [
+      {
+        "file": "public/assets/gladias-360.webp",
+        "bytes": 8736,
+        "width": 360,
+        "height": 300
+      },
+      {
+        "file": "public/assets/gladias-600.webp",
+        "bytes": 19618,
+        "width": 600,
+        "height": 500
+      }
+    ]
+  },
+  {
+    "name": "zei",
+    "sourceFile": "concept-art/characters/02-zei-leimin.png",
+    "sourceSha256": "90680b6303b2236d665b5fca106c521e8a101cdec32bbaf4a144e08793de2167",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: identity-preserve. Asset type: INDIVIDUAL full-body character concept art for SNOWMOON, futuristic American-market 2D graphic novel.\nInput image 1: EDIT TARGET and identity/costume/style reference, an existing FOUR-person character design sheet. Isolate and recompose ONLY the SECOND column character, labeled \"ZEI LEIMIN\". Preserve that selected character's exact facial identity, hairstyle, skin tone, age, body build, posture, costume cut, colors, footwear and held items. The selected full-body figure is the primary reference; close-up portrait is supporting face reference only.\nSubject: 18-year-old lean male, warm light-medium skin, youthful angular face, thick black straight hair with uneven diagonal fringe, focused dark eyes. Same pine-green lightweight boxy technical jacket, cream shirt, charcoal cargo trousers, dark low-top sneakers with pale soles, wrist terminal. One hand casually in pocket, other relaxed as in reference. Healthy left forearm.\nPrimary request: Create ONE new tall portrait-format image showing ONLY this ONE person ONCE, in a single large head-to-toe standing three-quarter figure. Remove the other three characters completely. Remove ALL duplicate head portraits, color swatches, divider lines, panels and sheet header. Do NOT create a contact sheet, lineup, turnaround, collage, inset head, multiple poses or duplicate person.\nComposition: centered full figure filling roughly 82% of image height, natural roughly 7.5-head human proportions, generous narrow side margins, visible complete hair/head and BOTH complete shoes with comfortable space above and below. Full garment hem visible. Blank warm ivory paper background with very faint texture and a small soft ground shadow only. No scene, no extra props. Portrait canvas roughly 2:3, requested 1024x1536.\nStyle: EXACT same original 2D Western graphic novel artwork as reference: confident varied black ink lines, clearly drawn folds, large solid black shadows, clean two-tone cel shading, restrained halftone. Not photo, not 3D render, not anime/chibi, no superhero transformation. Keep original restrained palette.\nText: only a small neat dark name caption \"ZEI LEIMIN\" centered BELOW the feet, no other text. Keep portrait identity faithful, do not beautify/recast/re-age. No personal emblems on privacy robes. No new weapon, armor, glowing cyber implants, scenery or extra people.",
+    "outputs": [
+      {
+        "file": "public/assets/zei-360.webp",
+        "bytes": 10550,
+        "width": 360,
+        "height": 300
+      },
+      {
+        "file": "public/assets/zei-600.webp",
+        "bytes": 23166,
+        "width": 600,
+        "height": 500
+      }
+    ]
+  },
+  {
+    "name": "bai",
+    "sourceFile": "concept-art/characters/03-bai-jahen.png",
+    "sourceSha256": "cf202f27308fa8e8d58872ac1c3e3ccefb66f3e121d7b8153607d69cb67d2dba",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: identity-preserve. Asset type: INDIVIDUAL full-body character concept art for SNOWMOON, futuristic American-market 2D graphic novel.\nInput image 1: EDIT TARGET and identity/costume/style reference, an existing FOUR-person character design sheet. Isolate and recompose ONLY the THIRD column character, labeled \"BAI JAHEN\". Preserve that selected character's exact facial identity, hairstyle, skin tone, age, body build, posture, costume cut, colors, footwear and held items. The selected full-body figure is the primary reference; close-up portrait is supporting face reference only.\nSubject: Young female peer 18-20, warm olive-tan skin, diamond face, black short low ponytail with two face strands, direct confident gaze. Same rust-amber short structured jacket over plain purple shirt, charcoal practical trousers, black ankle boots and small black crossbody bag; hand terminal in one hand, other hand near pocket. Functional opaque clothing and normal natural anatomy.\nPrimary request: Create ONE new tall portrait-format image showing ONLY this ONE person ONCE, in a single large head-to-toe standing three-quarter figure. Remove the other three characters completely. Remove ALL duplicate head portraits, color swatches, divider lines, panels and sheet header. Do NOT create a contact sheet, lineup, turnaround, collage, inset head, multiple poses or duplicate person.\nComposition: centered full figure filling roughly 82% of image height, natural roughly 7.5-head human proportions, generous narrow side margins, visible complete hair/head and BOTH complete shoes with comfortable space above and below. Full garment hem visible. Blank warm ivory paper background with very faint texture and a small soft ground shadow only. No scene, no extra props. Portrait canvas roughly 2:3, requested 1024x1536.\nStyle: EXACT same original 2D Western graphic novel artwork as reference: confident varied black ink lines, clearly drawn folds, large solid black shadows, clean two-tone cel shading, restrained halftone. Not photo, not 3D render, not anime/chibi, no superhero transformation. Keep original restrained palette.\nText: only a small neat dark name caption \"BAI JAHEN\" centered BELOW the feet, no other text. Keep portrait identity faithful, do not beautify/recast/re-age. No personal emblems on privacy robes. No new weapon, armor, glowing cyber implants, scenery or extra people.",
+    "outputs": [
+      {
+        "file": "public/assets/bai-360.webp",
+        "bytes": 10148,
+        "width": 360,
+        "height": 300
+      },
+      {
+        "file": "public/assets/bai-600.webp",
+        "bytes": 22278,
+        "width": 600,
+        "height": 500
+      }
+    ]
+  },
+  {
+    "name": "seila",
+    "sourceFile": "concept-art/characters/04-seila.png",
+    "sourceSha256": "8c873c96a4341476bbe959625a946266c96703e33120ce26de706801f13b0bb0",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: identity-preserve. Asset type: INDIVIDUAL full-body character concept art for SNOWMOON, futuristic American-market 2D graphic novel.\nInput image 1: EDIT TARGET and identity/costume/style reference, an existing FOUR-person character design sheet. Isolate and recompose ONLY the FOURTH (rightmost) column character, labeled \"SEILA\". Preserve that selected character's exact facial identity, hairstyle, skin tone, age, body build, posture, costume cut, colors, footwear and held items. The selected full-body figure is the primary reference; close-up portrait is supporting face reference only.\nSubject: Late-30s/early-40s woman, medium-deep brown skin, open oval face, dark curly hair in high rounded bun and loose curls, independent inquisitive look. Same muted teal open knee-length coat, cream top, charcoal trousers, dark practical boots, crossbody reporter bag, narrow throat band, wrist terminal. Holds upright phone/hand terminal raised to document something, other hand at bag strap as in reference.\nPrimary request: Create ONE new tall portrait-format image showing ONLY this ONE person ONCE, in a single large head-to-toe standing three-quarter figure. Remove the other three characters completely. Remove ALL duplicate head portraits, color swatches, divider lines, panels and sheet header. Do NOT create a contact sheet, lineup, turnaround, collage, inset head, multiple poses or duplicate person.\nComposition: centered full figure filling roughly 82% of image height, natural roughly 7.5-head human proportions, generous narrow side margins, visible complete hair/head and BOTH complete shoes with comfortable space above and below. Full garment hem visible. Blank warm ivory paper background with very faint texture and a small soft ground shadow only. No scene, no extra props. Portrait canvas roughly 2:3, requested 1024x1536.\nStyle: EXACT same original 2D Western graphic novel artwork as reference: confident varied black ink lines, clearly drawn folds, large solid black shadows, clean two-tone cel shading, restrained halftone. Not photo, not 3D render, not anime/chibi, no superhero transformation. Keep original restrained palette.\nText: only a small neat dark name caption \"SEILA\" centered BELOW the feet, no other text. Keep portrait identity faithful, do not beautify/recast/re-age. No personal emblems on privacy robes. No new weapon, armor, glowing cyber implants, scenery or extra people.",
+    "outputs": [
+      {
+        "file": "public/assets/seila-360.webp",
+        "bytes": 13262,
+        "width": 360,
+        "height": 300
+      },
+      {
+        "file": "public/assets/seila-600.webp",
+        "bytes": 29116,
+        "width": 600,
+        "height": 500
+      }
+    ]
+  },
+  {
+    "name": "fin",
+    "sourceFile": "concept-art/characters/05-fin.png",
+    "sourceSha256": "7a8deceef768b9a0167164890c85df685c9c8d425c6ca11401a1f97d0f9d4b0a",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: identity-preserve. Asset type: INDIVIDUAL full-body character concept art for SNOWMOON, futuristic American-market 2D graphic novel.\nInput image 1: EDIT TARGET and identity/costume/style reference, an existing FOUR-person character design sheet. Isolate and recompose ONLY the FIRST (leftmost) column character, labeled \"FIN\". Preserve that selected character's exact facial identity, hairstyle, skin tone, age, body build, posture, costume cut, colors, footwear and held items. The selected full-body figure is the primary reference; close-up portrait is supporting face reference only.\nSubject: Friendly young male 18-20, deep brown skin, short tight black curls, rounded warm face and broad relaxed smile. Same light slate-blue hooded overshirt, cream inner shirt, charcoal cargo trousers, slate sneakers, narrow teal fabric neckband and wrist terminal. Rounded backpack visible around shoulders, small cream booklet with simple two-hands-meeting line icon held in hand, other hand in pocket.\nPrimary request: Create ONE new tall portrait-format image showing ONLY this ONE person ONCE, in a single large head-to-toe standing three-quarter figure. Remove the other three characters completely. Remove ALL duplicate head portraits, color swatches, divider lines, panels and sheet header. Do NOT create a contact sheet, lineup, turnaround, collage, inset head, multiple poses or duplicate person.\nComposition: centered full figure filling roughly 82% of image height, natural roughly 7.5-head human proportions, generous narrow side margins, visible complete hair/head and BOTH complete shoes with comfortable space above and below. Full garment hem visible. Blank warm ivory paper background with very faint texture and a small soft ground shadow only. No scene, no extra props. Portrait canvas roughly 2:3, requested 1024x1536.\nStyle: EXACT same original 2D Western graphic novel artwork as reference: confident varied black ink lines, clearly drawn folds, large solid black shadows, clean two-tone cel shading, restrained halftone. Not photo, not 3D render, not anime/chibi, no superhero transformation. Keep original restrained palette.\nText: only a small neat dark name caption \"FIN\" centered BELOW the feet, no other text. Keep portrait identity faithful, do not beautify/recast/re-age. No personal emblems on privacy robes. No new weapon, armor, glowing cyber implants, scenery or extra people.",
+    "outputs": [
+      {
+        "file": "public/assets/fin-360.webp",
+        "bytes": 10764,
+        "width": 360,
+        "height": 300
+      },
+      {
+        "file": "public/assets/fin-600.webp",
+        "bytes": 23280,
+        "width": 600,
+        "height": 500
+      }
+    ]
+  },
+  {
+    "name": "mu",
+    "sourceFile": "concept-art/characters/06-mu.png",
+    "sourceSha256": "f726e42c7ca26fc7aa74663e00a5b695c50fde93cdfe4e616159a5ed8a27e8aa",
+    "process": "Pillow crop/resize + WebP quality 76, method 6; no generative edits",
+    "artwork": "AI-assisted illustration from the Snowmoon motion-comic production",
+    "prompt": "Use case: identity-preserve. Asset type: INDIVIDUAL full-body character concept art for SNOWMOON, futuristic American-market 2D graphic novel.\nInput image 1: EDIT TARGET and identity/costume/style reference, an existing FOUR-person character design sheet. Isolate and recompose ONLY the SECOND column character, labeled \"MU\". Preserve that selected character's exact facial identity, hairstyle, skin tone, age, body build, posture, costume cut, colors, footwear and held items. The selected full-body figure is the primary reference; close-up portrait is supporting face reference only.\nSubject: 40-50-year-old female mentor with light-medium warm skin, defined cheekbones, perceptive dark eyes, black chin-length bob and broad graying streak on one side, calm faint smile. Same tailored long slate-plum civilian coat over practical charcoal layers and trousers, black boots, understated hand terminal held close to chest, other hand in coat pocket. Relaxed upright economical posture, no armor.\nPrimary request: Create ONE new tall portrait-format image showing ONLY this ONE person ONCE, in a single large head-to-toe standing three-quarter figure. Remove the other three characters completely. Remove ALL duplicate head portraits, color swatches, divider lines, panels and sheet header. Do NOT create a contact sheet, lineup, turnaround, collage, inset head, multiple poses or duplicate person.\nComposition: centered full figure filling roughly 82% of image height, natural roughly 7.5-head human proportions, generous narrow side margins, visible complete hair/head and BOTH complete shoes with comfortable space above and below. Full garment hem visible. Blank warm ivory paper background with very faint texture and a small soft ground shadow only. No scene, no extra props. Portrait canvas roughly 2:3, requested 1024x1536.\nStyle: EXACT same original 2D Western graphic novel artwork as reference: confident varied black ink lines, clearly drawn folds, large solid black shadows, clean two-tone cel shading, restrained halftone. Not photo, not 3D render, not anime/chibi, no superhero transformation. Keep original restrained palette.\nText: only a small neat dark name caption \"MU\" centered BELOW the feet, no other text. Keep portrait identity faithful, do not beautify/recast/re-age. No personal emblems on privacy robes. No new weapon, armor, glowing cyber implants, scenery or extra people.",
+    "outputs": [
+      {
+        "file": "public/assets/mu-360.webp",
+        "bytes": 7118,
+        "width": 360,
+        "height": 300
+      },
+      {
+        "file": "public/assets/mu-600.webp",
+        "bytes": 14856,
+        "width": 600,
+        "height": 500
+      }
+    ]
+  }
+]
