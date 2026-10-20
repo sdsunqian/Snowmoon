@@ -3,10 +3,11 @@
   "name": "Snowmoon",
   "originalUrl": "https://vitalik.eth.limo/snowmoon/",
   "license": "GPL-3.0-only",
-  "sourceRepository": "",
-  "youtubeChannel": "",
+  "sourceRepository": "https://github.com/sdsunqian/Snowmoon",
+  "youtubeChannel": "https://www.youtube.com/@FancyDramaTV",
   "description": {
-    "en": "Explore Snowmoon through 32 illustrated episodes, a complete Chinese translation and the original English novel. A future shaped by privacy, institutions and human choices.",
-    "zh": "探索《Snowmoon 雪月》：32 集科幻解说漫剧、完整中文译文与英文原作。走进一个由隐私、制度与人的选择共同塑造的未来。"
-  }
+    "en": "Watch all 32 Snowmoon sci-fi motion comic episodes on YouTube. Explore the characters and world, read the complete Chinese translation, and visit the original English novel.",
+    "zh": "观看《Snowmoon 雪月》全 32 集科幻解说漫剧，直达 YouTube 视频与播放列表。探索人物与世界，阅读完整中文译文及英文原作。"
+  },
+  "youtubePlaylist": "https://www.youtube.com/playlist?list=PLC2mjVqLQUHA"
 }

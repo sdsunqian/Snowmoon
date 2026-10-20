@@ -1,5 +1,7 @@
 # Snowmoon · snowmoon.cc
 
+**全 32 集已在 YouTube 上线。** [完整播放列表](https://www.youtube.com/playlist?list=PLC2mjVqLQUHA) · [从第 1 集开始](https://www.youtube.com/watch?v=B-KEK2XJxa0) · [GitHub 开源仓库](https://github.com/sdsunqian/Snowmoon)
+
 中英双语响应式小说与漫画剧集网站。纯静态 HTML / CSS / JavaScript，无运行时依赖，无服务器、数据库、视频文件或第三方字体。面向 Cloudflare Pages；所有可提交的项目材料均位于本目录。
 
 ## 本地运行
@@ -36,7 +38,11 @@ Pages 的已核对限制：Free 每站 20,000 个文件、单文件 25 MiB；部
 
 ## 接入 YouTube
 
-编辑 `content/youtube.json`，键名就是集数，空字符串表示待上线。支持 YouTube 常规链接、youtu.be、shorts 和 embed 链接，构建时校验域名与视频 ID。
+`content/youtube.json` 已填入全部 32 集核对后的观看链接、实际上传时间和 YouTube 时长；`content/youtube-release.json` 保存公开标题与集数的对应关系。正常构建直接读取这些文件，不需要访问 YouTube。
+
+匹配依据是视频标题中的 EP 集数，不是播放列表中的位置。本站按 EP1→EP32 展示；YouTube 播放列表目前为倒序。如需在 YouTube 自动按剧情顺序连续播放，请在 YouTube 中将列表调整为 EP1→EP32。本站逐集观看链接会直接打开对应视频。
+
+替换视频时，编辑 `content/youtube.json` 中对应集数并更新核对记录。空字符串仍可用于尚未上线或暂不可用的视频。支持 YouTube 常规链接、youtu.be、shorts 和 embed 链接，构建时校验域名与视频 ID。
 
 ```json
 {
@@ -60,7 +66,7 @@ Pages 的已核对限制：Free 每站 20,000 个文件、单文件 25 MiB；部
 
 未提供上传时间时仍显示可用的观看链接，但不会捏造上传日期来生成 `VideoObject`。未提供视频链接时不会展示假播放按钮或加载 iframe。点击观看跳转 YouTube，本站不托管 MP4。
 
-`content/site.json` 中的 `sourceRepository` 可在 GitHub 开源后填写完整仓库链接，源码页面会自动显示。`youtubeChannel` 为后续扩展预留，目前页面以逐集链接为准。
+`content/site.json` 已填写 GitHub 仓库、YouTube 频道及 `youtubePlaylist`。剧集目录、详情页和页脚提供播放列表入口；首页可直接观看第 1 集，剧集卡片可直接进入对应视频。更换播放列表或仓库后，请同步更新配置。
 
 ## 页面结构
 

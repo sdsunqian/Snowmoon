@@ -1,34 +1,162 @@
 {
-  "1": "",
-  "2": "",
-  "3": "",
-  "4": "",
-  "5": "",
-  "6": "",
-  "7": "",
-  "8": "",
-  "9": "",
-  "10": "",
-  "11": "",
-  "12": "",
-  "13": "",
-  "14": "",
-  "15": "",
-  "16": "",
-  "17": "",
-  "18": "",
-  "19": "",
-  "20": "",
-  "21": "",
-  "22": "",
-  "23": "",
-  "24": "",
-  "25": "",
-  "26": "",
-  "27": "",
-  "28": "",
-  "29": "",
-  "30": "",
-  "31": "",
-  "32": ""
+  "1": {
+    "url": "https://www.youtube.com/watch?v=B-KEK2XJxa0",
+    "uploadDate": "2026-10-20T05:32:17-07:00",
+    "durationSeconds": 1324
+  },
+  "2": {
+    "url": "https://www.youtube.com/watch?v=-2YFyFMeU6E",
+    "uploadDate": "2026-10-20T05:35:06-07:00",
+    "durationSeconds": 859
+  },
+  "3": {
+    "url": "https://www.youtube.com/watch?v=aIOeDt-sNHc",
+    "uploadDate": "2026-10-20T05:35:51-07:00",
+    "durationSeconds": 1053
+  },
+  "4": {
+    "url": "https://www.youtube.com/watch?v=weuBY2s_k-4",
+    "uploadDate": "2026-10-20T05:37:04-07:00",
+    "durationSeconds": 1250
+  },
+  "5": {
+    "url": "https://www.youtube.com/watch?v=NCPrn2vMhUw",
+    "uploadDate": "2026-10-20T05:37:45-07:00",
+    "durationSeconds": 631
+  },
+  "6": {
+    "url": "https://www.youtube.com/watch?v=PrprVSpUlEQ",
+    "uploadDate": "2026-10-20T05:38:17-07:00",
+    "durationSeconds": 1169
+  },
+  "7": {
+    "url": "https://www.youtube.com/watch?v=RaKsXWLqoyo",
+    "uploadDate": "2026-10-20T05:39:10-07:00",
+    "durationSeconds": 953
+  },
+  "8": {
+    "url": "https://www.youtube.com/watch?v=YraNWdrK0Hs",
+    "uploadDate": "2026-10-20T05:39:43-07:00",
+    "durationSeconds": 978
+  },
+  "9": {
+    "url": "https://www.youtube.com/watch?v=4besaR8o55U",
+    "uploadDate": "2026-10-20T05:40:13-07:00",
+    "durationSeconds": 971
+  },
+  "10": {
+    "url": "https://www.youtube.com/watch?v=5jjvusC6M6c",
+    "uploadDate": "2026-10-20T05:40:44-07:00",
+    "durationSeconds": 1190
+  },
+  "11": {
+    "url": "https://www.youtube.com/watch?v=7JbjZSeLOLc",
+    "uploadDate": "2026-10-20T05:41:18-07:00",
+    "durationSeconds": 1012
+  },
+  "12": {
+    "url": "https://www.youtube.com/watch?v=C4BZhC9jqxQ",
+    "uploadDate": "2026-10-20T05:42:24-07:00",
+    "durationSeconds": 1158
+  },
+  "13": {
+    "url": "https://www.youtube.com/watch?v=pYUGn9jsyMg",
+    "uploadDate": "2026-10-20T05:48:51-07:00",
+    "durationSeconds": 693
+  },
+  "14": {
+    "url": "https://www.youtube.com/watch?v=4loZnldacCU",
+    "uploadDate": "2026-10-20T05:49:39-07:00",
+    "durationSeconds": 941
+  },
+  "15": {
+    "url": "https://www.youtube.com/watch?v=XKG7P3u90e4",
+    "uploadDate": "2026-10-20T05:50:15-07:00",
+    "durationSeconds": 912
+  },
+  "16": {
+    "url": "https://www.youtube.com/watch?v=FacpgUVplgk",
+    "uploadDate": "2026-10-20T05:50:45-07:00",
+    "durationSeconds": 680
+  },
+  "17": {
+    "url": "https://www.youtube.com/watch?v=XugW3PcpyyE",
+    "uploadDate": "2026-10-20T05:51:19-07:00",
+    "durationSeconds": 687
+  },
+  "18": {
+    "url": "https://www.youtube.com/watch?v=1juNd3Iu7GQ",
+    "uploadDate": "2026-10-20T05:51:49-07:00",
+    "durationSeconds": 857
+  },
+  "19": {
+    "url": "https://www.youtube.com/watch?v=3lulXb0v6h8",
+    "uploadDate": "2026-10-20T05:52:16-07:00",
+    "durationSeconds": 1023
+  },
+  "20": {
+    "url": "https://www.youtube.com/watch?v=gIG2uTQdulA",
+    "uploadDate": "2026-10-20T05:53:11-07:00",
+    "durationSeconds": 1140
+  },
+  "21": {
+    "url": "https://www.youtube.com/watch?v=J3SoTFHjJGw",
+    "uploadDate": "2026-10-20T05:54:04-07:00",
+    "durationSeconds": 720
+  },
+  "22": {
+    "url": "https://www.youtube.com/watch?v=eI97guIm23U",
+    "uploadDate": "2026-10-20T05:54:42-07:00",
+    "durationSeconds": 926
+  },
+  "23": {
+    "url": "https://www.youtube.com/watch?v=Nl9873BAwWc",
+    "uploadDate": "2026-10-20T05:55:18-07:00",
+    "durationSeconds": 748
+  },
+  "24": {
+    "url": "https://www.youtube.com/watch?v=8NGykBUwC7I",
+    "uploadDate": "2026-10-20T05:55:51-07:00",
+    "durationSeconds": 647
+  },
+  "25": {
+    "url": "https://www.youtube.com/watch?v=ecv4T9KO_rg",
+    "uploadDate": "2026-10-20T05:56:33-07:00",
+    "durationSeconds": 682
+  },
+  "26": {
+    "url": "https://www.youtube.com/watch?v=q7fGI0CSdeI",
+    "uploadDate": "2026-10-20T05:57:04-07:00",
+    "durationSeconds": 1248
+  },
+  "27": {
+    "url": "https://www.youtube.com/watch?v=vTgBeLZj6bQ",
+    "uploadDate": "2026-10-20T05:57:44-07:00",
+    "durationSeconds": 1186
+  },
+  "28": {
+    "url": "https://www.youtube.com/watch?v=G1bJw6mah1w",
+    "uploadDate": "2026-10-20T05:58:17-07:00",
+    "durationSeconds": 672
+  },
+  "29": {
+    "url": "https://www.youtube.com/watch?v=b5jJX0FBx2Y",
+    "uploadDate": "2026-10-20T05:58:50-07:00",
+    "durationSeconds": 1006
+  },
+  "30": {
+    "url": "https://www.youtube.com/watch?v=mgf7LhwvCH0",
+    "uploadDate": "2026-10-20T05:59:22-07:00",
+    "durationSeconds": 1117
+  },
+  "31": {
+    "url": "https://www.youtube.com/watch?v=TZ5KOpB6zbw",
+    "uploadDate": "2026-10-20T05:59:52-07:00",
+    "durationSeconds": 688
+  },
+  "32": {
+    "url": "https://www.youtube.com/watch?v=LSsmQdx_MUQ",
+    "uploadDate": "2026-10-20T06:00:37-07:00",
+    "durationSeconds": 997
+  }
 }

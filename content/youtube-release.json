@@ -1,0 +1,297 @@
+{
+  "playlistUrl": "https://www.youtube.com/playlist?list=PLC2mjVqLQUHA",
+  "playlistTitle": "Snowmoon | The Complete Sci-Fi Motion Comic Series",
+  "channelUrl": "https://www.youtube.com/@FancyDramaTV",
+  "source": "Public YouTube playlist and individual watch-page metadata; episode titles matched by EP number, not playlist position.",
+  "verifiedAt": "2026-10-20T13:05:48.544964+00:00",
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Snowmoon EP1",
+      "videoId": "B-KEK2XJxa0",
+      "url": "https://www.youtube.com/watch?v=B-KEK2XJxa0",
+      "uploadDate": "2026-10-20T05:32:17-07:00",
+      "durationSeconds": 1324,
+      "playlistPosition": 32
+    },
+    {
+      "episode": 2,
+      "title": "Snowmoon EP2",
+      "videoId": "-2YFyFMeU6E",
+      "url": "https://www.youtube.com/watch?v=-2YFyFMeU6E",
+      "uploadDate": "2026-10-20T05:35:06-07:00",
+      "durationSeconds": 859,
+      "playlistPosition": 31
+    },
+    {
+      "episode": 3,
+      "title": "Snowmoon EP3",
+      "videoId": "aIOeDt-sNHc",
+      "url": "https://www.youtube.com/watch?v=aIOeDt-sNHc",
+      "uploadDate": "2026-10-20T05:35:51-07:00",
+      "durationSeconds": 1053,
+      "playlistPosition": 30
+    },
+    {
+      "episode": 4,
+      "title": "Snowmoon EP4",
+      "videoId": "weuBY2s_k-4",
+      "url": "https://www.youtube.com/watch?v=weuBY2s_k-4",
+      "uploadDate": "2026-10-20T05:37:04-07:00",
+      "durationSeconds": 1250,
+      "playlistPosition": 29
+    },
+    {
+      "episode": 5,
+      "title": "Snowmoon EP5",
+      "videoId": "NCPrn2vMhUw",
+      "url": "https://www.youtube.com/watch?v=NCPrn2vMhUw",
+      "uploadDate": "2026-10-20T05:37:45-07:00",
+      "durationSeconds": 631,
+      "playlistPosition": 28
+    },
+    {
+      "episode": 6,
+      "title": "Snowmoon EP6",
+      "videoId": "PrprVSpUlEQ",
+      "url": "https://www.youtube.com/watch?v=PrprVSpUlEQ",
+      "uploadDate": "2026-10-20T05:38:17-07:00",
+      "durationSeconds": 1169,
+      "playlistPosition": 27
+    },
+    {
+      "episode": 7,
+      "title": "Snowmoon EP7",
+      "videoId": "RaKsXWLqoyo",
+      "url": "https://www.youtube.com/watch?v=RaKsXWLqoyo",
+      "uploadDate": "2026-10-20T05:39:10-07:00",
+      "durationSeconds": 953,
+      "playlistPosition": 26
+    },
+    {
+      "episode": 8,
+      "title": "Snowmoon EP8",
+      "videoId": "YraNWdrK0Hs",
+      "url": "https://www.youtube.com/watch?v=YraNWdrK0Hs",
+      "uploadDate": "2026-10-20T05:39:43-07:00",
+      "durationSeconds": 978,
+      "playlistPosition": 25
+    },
+    {
+      "episode": 9,
+      "title": "Snowmoon EP9",
+      "videoId": "4besaR8o55U",
+      "url": "https://www.youtube.com/watch?v=4besaR8o55U",
+      "uploadDate": "2026-10-20T05:40:13-07:00",
+      "durationSeconds": 971,
+      "playlistPosition": 24
+    },
+    {
+      "episode": 10,
+      "title": "Snowmoon EP10",
+      "videoId": "5jjvusC6M6c",
+      "url": "https://www.youtube.com/watch?v=5jjvusC6M6c",
+      "uploadDate": "2026-10-20T05:40:44-07:00",
+      "durationSeconds": 1190,
+      "playlistPosition": 23
+    },
+    {
+      "episode": 11,
+      "title": "Snowmoon EP11",
+      "videoId": "7JbjZSeLOLc",
+      "url": "https://www.youtube.com/watch?v=7JbjZSeLOLc",
+      "uploadDate": "2026-10-20T05:41:18-07:00",
+      "durationSeconds": 1012,
+      "playlistPosition": 22
+    },
+    {
+      "episode": 12,
+      "title": "Snowmoon EP12",
+      "videoId": "C4BZhC9jqxQ",
+      "url": "https://www.youtube.com/watch?v=C4BZhC9jqxQ",
+      "uploadDate": "2026-10-20T05:42:24-07:00",
+      "durationSeconds": 1158,
+      "playlistPosition": 21
+    },
+    {
+      "episode": 13,
+      "title": "Snowmoon EP13",
+      "videoId": "pYUGn9jsyMg",
+      "url": "https://www.youtube.com/watch?v=pYUGn9jsyMg",
+      "uploadDate": "2026-10-20T05:48:51-07:00",
+      "durationSeconds": 693,
+      "playlistPosition": 20
+    },
+    {
+      "episode": 14,
+      "title": "Snowmoon EP14",
+      "videoId": "4loZnldacCU",
+      "url": "https://www.youtube.com/watch?v=4loZnldacCU",
+      "uploadDate": "2026-10-20T05:49:39-07:00",
+      "durationSeconds": 941,
+      "playlistPosition": 19
+    },
+    {
+      "episode": 15,
+      "title": "Snowmoon EP15",
+      "videoId": "XKG7P3u90e4",
+      "url": "https://www.youtube.com/watch?v=XKG7P3u90e4",
+      "uploadDate": "2026-10-20T05:50:15-07:00",
+      "durationSeconds": 912,
+      "playlistPosition": 18
+    },
+    {
+      "episode": 16,
+      "title": "Snowmoon EP16",
+      "videoId": "FacpgUVplgk",
+      "url": "https://www.youtube.com/watch?v=FacpgUVplgk",
+      "uploadDate": "2026-10-20T05:50:45-07:00",
+      "durationSeconds": 680,
+      "playlistPosition": 17
+    },
+    {
+      "episode": 17,
+      "title": "Snowmoon EP17",
+      "videoId": "XugW3PcpyyE",
+      "url": "https://www.youtube.com/watch?v=XugW3PcpyyE",
+      "uploadDate": "2026-10-20T05:51:19-07:00",
+      "durationSeconds": 687,
+      "playlistPosition": 16
+    },
+    {
+      "episode": 18,
+      "title": "Snowmoon EP18",
+      "videoId": "1juNd3Iu7GQ",
+      "url": "https://www.youtube.com/watch?v=1juNd3Iu7GQ",
+      "uploadDate": "2026-10-20T05:51:49-07:00",
+      "durationSeconds": 857,
+      "playlistPosition": 15
+    },
+    {
+      "episode": 19,
+      "title": "Snowmoon EP19",
+      "videoId": "3lulXb0v6h8",
+      "url": "https://www.youtube.com/watch?v=3lulXb0v6h8",
+      "uploadDate": "2026-10-20T05:52:16-07:00",
+      "durationSeconds": 1023,
+      "playlistPosition": 14
+    },
+    {
+      "episode": 20,
+      "title": "Snowmoon EP20",
+      "videoId": "gIG2uTQdulA",
+      "url": "https://www.youtube.com/watch?v=gIG2uTQdulA",
+      "uploadDate": "2026-10-20T05:53:11-07:00",
+      "durationSeconds": 1140,
+      "playlistPosition": 13
+    },
+    {
+      "episode": 21,
+      "title": "Snowmoon EP21",
+      "videoId": "J3SoTFHjJGw",
+      "url": "https://www.youtube.com/watch?v=J3SoTFHjJGw",
+      "uploadDate": "2026-10-20T05:54:04-07:00",
+      "durationSeconds": 720,
+      "playlistPosition": 12
+    },
+    {
+      "episode": 22,
+      "title": "Snowmoon EP22",
+      "videoId": "eI97guIm23U",
+      "url": "https://www.youtube.com/watch?v=eI97guIm23U",
+      "uploadDate": "2026-10-20T05:54:42-07:00",
+      "durationSeconds": 926,
+      "playlistPosition": 11
+    },
+    {
+      "episode": 23,
+      "title": "Snowmoon EP23",
+      "videoId": "Nl9873BAwWc",
+      "url": "https://www.youtube.com/watch?v=Nl9873BAwWc",
+      "uploadDate": "2026-10-20T05:55:18-07:00",
+      "durationSeconds": 748,
+      "playlistPosition": 10
+    },
+    {
+      "episode": 24,
+      "title": "Snowmoon EP24",
+      "videoId": "8NGykBUwC7I",
+      "url": "https://www.youtube.com/watch?v=8NGykBUwC7I",
+      "uploadDate": "2026-10-20T05:55:51-07:00",
+      "durationSeconds": 647,
+      "playlistPosition": 9
+    },
+    {
+      "episode": 25,
+      "title": "Snowmoon EP25",
+      "videoId": "ecv4T9KO_rg",
+      "url": "https://www.youtube.com/watch?v=ecv4T9KO_rg",
+      "uploadDate": "2026-10-20T05:56:33-07:00",
+      "durationSeconds": 682,
+      "playlistPosition": 8
+    },
+    {
+      "episode": 26,
+      "title": "Snowmoon EP26",
+      "videoId": "q7fGI0CSdeI",
+      "url": "https://www.youtube.com/watch?v=q7fGI0CSdeI",
+      "uploadDate": "2026-10-20T05:57:04-07:00",
+      "durationSeconds": 1248,
+      "playlistPosition": 7
+    },
+    {
+      "episode": 27,
+      "title": "Snowmoon EP27",
+      "videoId": "vTgBeLZj6bQ",
+      "url": "https://www.youtube.com/watch?v=vTgBeLZj6bQ",
+      "uploadDate": "2026-10-20T05:57:44-07:00",
+      "durationSeconds": 1186,
+      "playlistPosition": 6
+    },
+    {
+      "episode": 28,
+      "title": "Snowmoon EP28",
+      "videoId": "G1bJw6mah1w",
+      "url": "https://www.youtube.com/watch?v=G1bJw6mah1w",
+      "uploadDate": "2026-10-20T05:58:17-07:00",
+      "durationSeconds": 672,
+      "playlistPosition": 5
+    },
+    {
+      "episode": 29,
+      "title": "Snowmoon EP29",
+      "videoId": "b5jJX0FBx2Y",
+      "url": "https://www.youtube.com/watch?v=b5jJX0FBx2Y",
+      "uploadDate": "2026-10-20T05:58:50-07:00",
+      "durationSeconds": 1006,
+      "playlistPosition": 4
+    },
+    {
+      "episode": 30,
+      "title": "Snowmoon EP30",
+      "videoId": "mgf7LhwvCH0",
+      "url": "https://www.youtube.com/watch?v=mgf7LhwvCH0",
+      "uploadDate": "2026-10-20T05:59:22-07:00",
+      "durationSeconds": 1117,
+      "playlistPosition": 3
+    },
+    {
+      "episode": 31,
+      "title": "Snowmoon EP31",
+      "videoId": "TZ5KOpB6zbw",
+      "url": "https://www.youtube.com/watch?v=TZ5KOpB6zbw",
+      "uploadDate": "2026-10-20T05:59:52-07:00",
+      "durationSeconds": 688,
+      "playlistPosition": 2
+    },
+    {
+      "episode": 32,
+      "title": "Snowmoon EP32",
+      "videoId": "LSsmQdx_MUQ",
+      "url": "https://www.youtube.com/watch?v=LSsmQdx_MUQ",
+      "uploadDate": "2026-10-20T06:00:37-07:00",
+      "durationSeconds": 997,
+      "playlistPosition": 1
+    }
+  ]
+}

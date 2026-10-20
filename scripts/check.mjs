@@ -10,6 +10,42 @@ const files=[];
 async function walk(directory){for(const entry of await readdir(directory,{withFileTypes:true})){const path=join(directory,entry.name);if(entry.isDirectory())await walk(path);else files.push(path);}}
 await walk(DIST);
 const htmlFiles=files.filter(file=>file.endsWith('.html'));
+const youtube=JSON.parse(await readFile(join(ROOT,'content/youtube.json'),'utf8'));
+const release=JSON.parse(await readFile(join(ROOT,'content/youtube-release.json'),'utf8'));
+const site=JSON.parse(await readFile(join(ROOT,'content/site.json'),'utf8'));
+assert.equal(release.episodes.length,32,'Expected 32 verified release entries');
+assert.equal(new Set(release.episodes.map(e=>e.episode)).size,32,'Duplicate release episode number');
+assert.equal(new Set(release.episodes.map(e=>e.videoId)).size,32,'Duplicate published video ID');
+let verifiedVideos=0;
+for(const entry of release.episodes) {
+  const configured=youtube[String(entry.episode)];
+  assert.equal(entry.title,`Snowmoon EP${entry.episode}`,'Release title must match its episode');
+  assert.equal(configured.url,entry.url,`Incorrect viewing link for EP${entry.episode}`);
+  assert.equal(new URL(configured.url).searchParams.get('v'),entry.videoId,'Release video ID mismatch');
+  assert.equal(configured.uploadDate,entry.uploadDate,'Upload timestamp must come from public metadata');
+  assert.equal(configured.durationSeconds,entry.durationSeconds,'Published duration mismatch');
+  for(const lang of ['en','zh']) {
+    const html=await readFile(join(DIST,lang,'episodes',String(entry.episode),'index.html'),'utf8');
+    assert.ok(html.includes(`href="${entry.url}"`),`Missing ${lang} watch link for EP${entry.episode}`);
+    assert.ok(!html.includes('class="pending-box"'),`Released episode marked pending: ${lang}/${entry.episode}`);
+    assert.ok(html.includes(`href="${site.youtubePlaylist}"`),'Missing playlist link');
+    const structured=JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
+    const videos=structured.filter(item=>item['@type']==='VideoObject');
+    assert.equal(videos.length,1,'Expected one video per episode page');
+    assert.equal(videos[0].embedUrl,`https://www.youtube-nocookie.com/embed/${entry.videoId}`,'Wrong structured video ID');
+    assert.equal(videos[0].uploadDate,entry.uploadDate,'Wrong structured upload date');
+    assert.equal(videos[0].duration,`PT${entry.durationSeconds}S`,'Wrong structured video duration');
+  }
+  verifiedVideos++;
+}
+for(const lang of ['en','zh']) {
+  const directory=await readFile(join(DIST,lang,'episodes/index.html'),'utf8');
+  assert.equal((directory.match(/class="episode-status available"/g)||[]).length,32,'Every card needs a direct viewing link');
+  const homepage=await readFile(join(DIST,lang,'index.html'),'utf8');
+  assert.ok(homepage.includes(`href="${youtube['1'].url}"`),'Homepage must link to EP1');
+  assert.ok(homepage.includes(`href="${site.youtubePlaylist}"`),'Homepage must link to the playlist');
+  assert.ok(homepage.includes(`href="${site.sourceRepository}"`),'Homepage must link to GitHub');
+}
 let links=0,schemas=0,chapterParagraphs=0;
 for(const file of files) {
   const info=await stat(file);
@@ -83,4 +119,4 @@ for(const match of sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)) {
   await stat(join(DIST,url.pathname,'index.html'));
 }
 assert.ok(files.length<20000,'Pages free-tier file count');
-console.log(JSON.stringify({result:'passed',htmlPages:htmlFiles.length,checkedLocalLinks:links,structuredDataObjects:schemas,translatedChapters:32,translatedParagraphs:chapterParagraphs,sourceArchiveFiles:archiveFiles,files:files.length},null,2));
+console.log(JSON.stringify({result:'passed',htmlPages:htmlFiles.length,verifiedYouTubeEpisodes:verifiedVideos,checkedLocalLinks:links,structuredDataObjects:schemas,translatedChapters:32,translatedParagraphs:chapterParagraphs,sourceArchiveFiles:archiveFiles,files:files.length},null,2));

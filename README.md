@@ -4,6 +4,8 @@ A responsive, bilingual website for the science fiction novel **Snowmoon** and i
 
 [简体中文](README.zh-CN.md) · [Original English novel](https://vitalik.eth.limo/snowmoon/) · [GPL v3](LICENSE)
 
+**All 32 episodes are now available on YouTube.** [View the complete playlist](https://www.youtube.com/playlist?list=PLC2mjVqLQUHA) · [Start with Episode 1](https://www.youtube.com/watch?v=B-KEK2XJxa0) · [GitHub repository](https://github.com/sdsunqian/Snowmoon)
+
 ## Features
 
 - English and Simplified Chinese homepages, episode guides, character introductions, and world guides.
@@ -58,7 +60,11 @@ Cloudflare Pages Free supports up to 20,000 files per site and a maximum individ
 
 ## Add YouTube videos
 
-Edit `content/youtube.json`. Each key is an episode number; an empty string means its YouTube release is forthcoming.
+`content/youtube.json` is populated with the verified viewing links, actual upload timestamps, and YouTube durations for all 32 episodes. `content/youtube-release.json` records the public title-to-episode mapping and verification source. Normal builds use these checked-in files without contacting YouTube.
+
+Episodes are matched by the `EP` number in their titles, independently of playlist position. The website lists EP1 through EP32 in chapter order. The YouTube playlist currently displays EP32 first; reorder it on YouTube if you want automatic EP1-to-EP32 playlist playback. Individual site viewing links open the selected episode directly.
+
+To replace a video, edit its episode-number key in `content/youtube.json` and update its verification record. An empty string is supported for a future or unavailable release.
 
 ```json
 {
@@ -82,7 +88,7 @@ To generate `VideoObject` structured data, include the video's actual upload tim
 
 The ID and timestamp above are placeholders: replace both with actual video details. Without an upload date, the viewing link still works, but the build does not invent metadata. Without a video link, the page displays a forthcoming message. Videos open on YouTube; the site does not load third-party players or host MP4 files.
 
-After publishing the source on GitHub, set `sourceRepository` in `content/site.json` to the repository URL. The source page will display it automatically. The `youtubeChannel` field is reserved for future use; viewing links currently come from the per-episode configuration.
+`content/site.json` includes the GitHub repository, the publisher's YouTube channel, and `youtubePlaylist`. The playlist is linked from the episode directory, individual episode pages, and footer. The homepage links directly to EP1, and episode cards have their own viewing links. Keep these values current when replacing a playlist or moving the repository.
 
 ## Routes
 
